@@ -1,0 +1,15 @@
+Structure:
+
+- Etude de convergence (petite valeur pour l'autre pour convergence rapide)
+    4 graphes à faire (2x2)
+    semi conducteur: etude sur ecut, nkpt, on regarde energie et parametre de maille.
+    Bonus: etude de convergence sur q pour les phonons
+            temps de relaxations (somme sur points q, convergence sur grille q, on regarde tau)
+- calcul de la maille (ecut, nkpt)
+- structure de bande electrons
+- structure de bandes de phonons
+- calcul du tau
+    convergence sur q (prendre q tres tres dense, si trop dense, on interpole)
+
+
+scancel: delete un job
