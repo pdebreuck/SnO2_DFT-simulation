@@ -3,6 +3,8 @@
  prefix = 'SnO2'
  pseudo_dir = '../Pseudo_potentials'
  outdir = './'
+ etot_conv_thr = 1.0d-5
+ forc_conv_thr = 1.0d-4
 /
 &system
  ibrav     = 6 !Tetragonal Primitive
@@ -13,7 +15,7 @@
  ecutwfc   = 15
 /
 &electrons
- conv_thr  = 1d-10
+ conv_thr  = 1d-8
 /
 ATOMIC_SPECIES
  Sn 118.71 Sn_PBE.upf
@@ -21,9 +23,10 @@ ATOMIC_SPECIES
 ATOMIC_POSITIONS crystal
  Sn  0.00 0.00 0.00
  Sn  0.50 0.50 0.50
- O   0.806552  0.193448  0.500000
- O   0.193448  0.806552  0.500000
- O   0.306552  0.306552  0.000000
- O   0.693448  0.693448  0.000000
+ O   0.806 0.193  0.500
+ O   0.193 0.806 0.500
+ O   0.306 0.306 0.000
+ O   0.693 0.693 0.000
 K_POINTS automatic
 6 6 6 0 0 0
+

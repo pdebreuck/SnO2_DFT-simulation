@@ -1,0 +1,16 @@
+forrtl: severe (24): end-of-file during read, unit 9, file /home/users/t/u/tuto09/SnO2_DFT-simulation/Convergence/input_tmp.in
+Image              PC                Routine            Line        Source             
+pw.x               0000000000FA392E  Unknown               Unknown  Unknown
+pw.x               0000000000FA23C6  Unknown               Unknown  Unknown
+pw.x               0000000000F55E92  Unknown               Unknown  Unknown
+pw.x               0000000000EEFE9B  Unknown               Unknown  Unknown
+pw.x               0000000000EEF402  Unknown               Unknown  Unknown
+pw.x               0000000000F19414  Unknown               Unknown  Unknown
+pw.x               000000000092D28C  read_namelists_mo        1992  read_namelists.f90
+pw.x               0000000000928586  read_namelists_mo        1867  read_namelists.f90
+pw.x               000000000092622D  read_input_mp_rea          68  read_input.f90
+pw.x               000000000046B164  MAIN__                     76  pwscf.f90
+pw.x               000000000046AFEC  Unknown               Unknown  Unknown
+libc.so.6          000000357B21ED1D  Unknown               Unknown  Unknown
+pw.x               000000000046AEE9  Unknown               Unknown  Unknown
+--
