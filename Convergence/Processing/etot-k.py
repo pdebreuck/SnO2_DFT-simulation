@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+
 import glob
 import re
 import matplotlib.pyplot as plt
@@ -17,13 +17,18 @@ for f in filenames:
 			energies = energies + energy
 			break
 	for line in open(f).readlines():
-		if "number of kpoints" in line:
-			k = re.findall("\d",line)
+		line = line.rstrip()
+		if "number of k points=" in line:
+			print line
+			k = re.findall("\d+",line)
 			kpoints = kpoints + k
 			break
-
-plt.plot(kpoints,energies)
+print energies
+print kpoints
+plt.plot(kpoints,energies,'o-')
 plt.xlabel('number k points')
 plt.ylabel('Total energy (Ry)')
 plt.title('Total energy in function of the number of k-points')
-plt.show
+plt.savefig('etot-k.png')
+plt.show()
+
