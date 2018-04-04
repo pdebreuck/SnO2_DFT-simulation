@@ -14,14 +14,14 @@ for f in filenames:
 			energy = re.findall("\d+\.\d+",line)
 			print f
 			print energy
-			energies = energies + energy
+			energies.append(float(energy[0]))
 			break
 	for line in open(f).readlines():
 		line = line.rstrip()
 		if "number of k points=" in line:
 			print line
 			k = re.findall("\d+",line)
-			kpoints = kpoints + k
+			kpoints.append(int(k[0]))
 			break
 print energies
 print kpoints
