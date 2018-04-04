@@ -15,7 +15,7 @@
  ecutwfc = 15 
 /
 &electrons
- conv_thr  = 1.0d-8
+ conv_thr  = 1.0d-12
 /
 &ions
 !ion_dynamics='bfgs'
@@ -36,4 +36,4 @@ ATOMIC_POSITIONS crystal
  O   0.306 0.306 0.000
  O   0.693 0.693 0.000
 K_POINTS automatic
- 2 2 2 0 0 0
+  18 18 18 0 0 0
