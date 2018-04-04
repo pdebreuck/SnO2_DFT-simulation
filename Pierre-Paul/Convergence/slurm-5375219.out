@@ -1,0 +1,48 @@
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD 
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libc.so.6          0000003CAE8CF4A7  Unknown               Unknown  Unknown
+libmpi.so.1        00007F712FD50F95  Unknown               Unknown  Unknown
+libmpi.so.1        00007F712FB780E2  Unknown               Unknown  Unknown
+libmpi.so.1        00007F712FBD765E  Unknown               Unknown  Unknown
+libmpi.so.1        00007F712FBE0015  Unknown               Unknown  Unknown
+libmpi.so.1        00007F712FB86C1D  Unknown               Unknown  Unknown
+libmpi_f77.so.1    00007F713013E0A3  Unknown               Unknown  Unknown
+pw.x               0000000000C83438  bcast_real_                37  mp_base.f90
+pw.x               0000000000C61EF3  mp_mp_mp_bcast_rv         379  mp.f90
+pw.x               0000000000C25F56  cdiaghg_                  183  cdiaghg.f90
+pw.x               0000000000B7B6CF  cegterg_                  388  cegterg.f90
+pw.x               00000000006AB649  diag_bands_IP_dia         473  c_bands.f90
+pw.x               00000000006AA081  diag_bands_               229  c_bands.f90
+pw.x               00000000006A8CB7  c_bands_                   99  c_bands.f90
+pw.x               0000000000471100  electrons_scf_            552  electrons.f90
+pw.x               000000000046DD37  electrons_                146  electrons.f90
+pw.x               00000000005DA589  run_pwscf_                127  run_pwscf.f90
+pw.x               000000000046B16F  MAIN__                     77  pwscf.f90
+pw.x               000000000046AFEC  Unknown               Unknown  Unknown
+libc.so.6          0000003CAE81ED1D  Unknown               Unknown  Unknown
+pw.x               000000000046AEE9  Unknown               Unknown  Unknown
+--------------------------------------------------------------------------
+mpirun has exited due to process rank 0 with PID 34676 on
+node mb-ivy208.cism.ucl.ac.be exiting improperly. There are two reasons this could occur:
+
+1. this process did not call "init" before exiting, but others in
+the job did. This can cause a job to hang indefinitely while it waits
+for all processes to call "init". By rule, if one process calls "init",
+then ALL processes must call "init" prior to termination.
+
+2. this process called "init", but exited without calling "finalize".
+By rule, all processes that call "init" MUST call "finalize" prior to
+exiting or it will be considered an "abnormal termination"
+
+This may have caused other processes in the application to be
+terminated by signals sent by mpirun (as reported here).
+--------------------------------------------------------------------------
+--
