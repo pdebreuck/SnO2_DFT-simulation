@@ -3,9 +3,9 @@ import glob
 import re
 import matplotlib.pyplot as plt
 
-filenames = sorted(glob.glob('../etot-k/Conv_etot-k*.out'))
+filenames = sorted(glob.glob('../etot-ecut/Conv_etot-e*.out'))
 energies = []
-kpoints = []
+ecut = []
 
 for f in filenames:
 	for line in reversed(open(f).readlines()):
@@ -18,17 +18,17 @@ for f in filenames:
 			break
 	for line in open(f).readlines():
 		line = line.rstrip()
-		if "number of k points=" in line:
+		if "kinetic-energy cutoff" in line:
 			print line
-			k = re.findall("\d+",line)
-			kpoints.append(int(k[0]))
+			e = re.findall("\d+\.\d+",line)
+			ecut.append(int(e[0]))
 			break
 print energies
-print kpoints
-plt.plot(kpoints,energies,'o-')
-plt.xlabel('number k points')
+print ecut
+plt.plot(ecut,energies,'o-')
+plt.xlabel('kinetic energy cutoff')
 plt.ylabel('Total energy (Ry)')
-plt.title('Energy - kpoints convergence')
-plt.savefig('etot-k.png')
+plt.title('Energy - ecut convergence')
+plt.savefig('etot-ecut.png')
 plt.show()
 
