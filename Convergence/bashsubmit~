@@ -18,13 +18,13 @@ MPI="mpirun"
 MPIOPT="-np 2"
 QE="/home/ucl/naps/gbrunin/q-e/bin/pw.x"
 
-${MPI} ${MPIOPT} ${QE} -inp Conv_etot-k2.in > Conv_etot-k2.out
+${MPI} ${MPIOPT} ${QE} -inp Conv_etot-k2.in > Conv_etot-k02.out
 sed -i -e "s/2 2 2/4 4 4/g" Conv_etot-k2.in
-${MPI} ${MPIOPT} ${QE} -inp Conv_etot-k2.in > Conv_etot-k4.out
+${MPI} ${MPIOPT} ${QE} -inp Conv_etot-k2.in > Conv_etot-k04.out
 sed -i -e "s/4 4 4/6 6 6/g" Conv_etot-k2.in
-${MPI} ${MPIOPT} ${QE} -inp Conv_etot-k2.in > Conv_etot-k6.out
+${MPI} ${MPIOPT} ${QE} -inp Conv_etot-k2.in > Conv_etot-k06.out
 sed -i -e "s/6 6 6/ 8 8 8/g" Conv_etot-k2.in 
-${MPI} ${MPIOPT} ${QE} -inp Conv_etot-k2.in > Conv_etot-k8.out
+${MPI} ${MPIOPT} ${QE} -inp Conv_etot-k2.in > Conv_etot-k08.out
 sed -i -e "s/8 8 8/10 10 10/g" Conv_etot-k2.in
 ${MPI} ${MPIOPT} ${QE} -inp Conv_etot-k2.in > Conv_etot-k10.out
 sed -i -e "s/10 10 10/12 12 12/g" Conv_etot-k2.in
@@ -35,7 +35,13 @@ sed -i -e "s/14 14 14/16 16 16/g" Conv_etot-k2.in
 ${MPI} ${MPIOPT} ${QE} -inp Conv_etot-k2.in > Conv_etot-k16.out
 sed -i -e "s/16 16 16/18 18 18/g" Conv_etot-k2.in 
 ${MPI} ${MPIOPT} ${QE} -inp Conv_etot-k2.in > Conv_etot-k18.out
-sed -i -e "s/18 18 18 18/20 20 20/g" Conv_etot-k2.in 
+sed -i -e "s/18 18 18/20 20 20/g" Conv_etot-k2.in 
 ${MPI} ${MPIOPT} ${QE} -inp Conv_etot-k2.in > Conv_etot-k20.out
+sed -i -e "s/20 20 20/22 22 22/g" Conv_etot-k2.in 
+${MPI} ${MPIOPT} ${QE} -inp Conv_etot-k2.in > Conv_etot-k22.out
+sed -i -e "s/22 22 22/24 24 24/g" Conv_etot-k2.in 
+${MPI} ${MPIOPT} ${QE} -inp Conv_etot-k2.in > Conv_etot-k24.out
+sed -i -e "s/24 24 24/26 26 26/g" Conv_etot-k2.in 
+${MPI} ${MPIOPT} ${QE} -inp Conv_etot-k2.in > Conv_etot-k24.out
 
 echo "--"
