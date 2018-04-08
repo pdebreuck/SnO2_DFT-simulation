@@ -1,0 +1,160 @@
+/usr/bin/id: cannot find name for group ID 10000
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD 
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libc.so.6          0000003E012CF4A7  Unknown               Unknown  Unknown
+libmpi.so.1        00007F9355850F95  Unknown               Unknown  Unknown
+libmpi.so.1        00007F93556780E2  Unknown               Unknown  Unknown
+libmpi.so.1        00007F93556D765E  Unknown               Unknown  Unknown
+libmpi.so.1        00007F93556E0015  Unknown               Unknown  Unknown
+libmpi.so.1        00007F9355686C1D  Unknown               Unknown  Unknown
+libmpi_f77.so.1    00007F9355C4C0A3  Unknown               Unknown  Unknown
+pw.x               0000000000C83438  bcast_real_                37  mp_base.f90
+pw.x               0000000000C61EF3  mp_mp_mp_bcast_rv         379  mp.f90
+pw.x               0000000000C25F56  cdiaghg_                  183  cdiaghg.f90
+pw.x               0000000000BA62F8  rotate_wfc_k_             111  rotate_wfc_k.f90
+pw.x               00000000006D933D  rotate_wfc_                82  rotate_wfc.f90
+pw.x               0000000000684F0C  wfcinit_                  329  wfcinit.f90
+pw.x               0000000000519BA0  init_run_                 119  init_run.f90
+pw.x               00000000005DA545  run_pwscf_                111  run_pwscf.f90
+pw.x               000000000046B16F  MAIN__                     77  pwscf.f90
+pw.x               000000000046AFEC  Unknown               Unknown  Unknown
+libc.so.6          0000003E0121ED1D  Unknown               Unknown  Unknown
+pw.x               000000000046AEE9  Unknown               Unknown  Unknown
+--------------------------------------------------------------------------
+mpirun has exited due to process rank 0 with PID 26155 on
+node mb-opt115.cism.ucl.ac.be exiting improperly. There are two reasons this could occur:
+
+1. this process did not call "init" before exiting, but others in
+the job did. This can cause a job to hang indefinitely while it waits
+for all processes to call "init". By rule, if one process calls "init",
+then ALL processes must call "init" prior to termination.
+
+2. this process called "init", but exited without calling "finalize".
+By rule, all processes that call "init" MUST call "finalize" prior to
+exiting or it will be considered an "abnormal termination"
+
+This may have caused other processes in the application to be
+terminated by signals sent by mpirun (as reported here).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 1 in communicator MPI_COMM_WORLD 
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    0000003E0160E870  Unknown               Unknown  Unknown
+pw.x               0000000000EE71F1  Unknown               Unknown  Unknown
+pw.x               0000000000EE6A32  Unknown               Unknown  Unknown
+pw.x               0000000000C5F2FD  errore_                   105  error_handler.f90
+pw.x               00000000006AA6AC  diag_bands_               216  c_bands.f90
+pw.x               00000000006A8CB7  c_bands_                   99  c_bands.f90
+pw.x               0000000000471100  electrons_scf_            552  electrons.f90
+pw.x               000000000046DD37  electrons_                146  electrons.f90
+pw.x               00000000005DA589  run_pwscf_                127  run_pwscf.f90
+pw.x               000000000046B16F  MAIN__                     77  pwscf.f90
+pw.x               000000000046AFEC  Unknown               Unknown  Unknown
+libc.so.6          0000003E0121ED1D  Unknown               Unknown  Unknown
+pw.x               000000000046AEE9  Unknown               Unknown  Unknown
+forrtl: severe (28): CLOSE error, unit 99, file "Unknown"
+Image              PC                Routine            Line        Source             
+pw.x               0000000000FA392E  Unknown               Unknown  Unknown
+pw.x               0000000000FA23C6  Unknown               Unknown  Unknown
+pw.x               0000000000F55E92  Unknown               Unknown  Unknown
+pw.x               0000000000EEFE9B  Unknown               Unknown  Unknown
+pw.x               0000000000EF3421  Unknown               Unknown  Unknown
+pw.x               0000000000EF6E1A  Unknown               Unknown  Unknown
+libpthread.so.0    0000003E0160F7E0  Unknown               Unknown  Unknown
+libpthread.so.0    0000003E0160E870  Unknown               Unknown  Unknown
+pw.x               0000000000EE71F1  Unknown               Unknown  Unknown
+pw.x               0000000000EE6A32  Unknown               Unknown  Unknown
+pw.x               0000000000C5F2FD  errore_                   105  error_handler.f90
+pw.x               00000000006AA6AC  diag_bands_               216  c_bands.f90
+pw.x               00000000006A8CB7  c_bands_                   99  c_bands.f90
+pw.x               0000000000471100  electrons_scf_            552  electrons.f90
+pw.x               000000000046DD37  electrons_                146  electrons.f90
+pw.x               00000000005DA589  run_pwscf_                127  run_pwscf.f90
+pw.x               000000000046B16F  MAIN__                     77  pwscf.f90
+pw.x               000000000046AFEC  Unknown               Unknown  Unknown
+libc.so.6          0000003E0121ED1D  Unknown               Unknown  Unknown
+pw.x               000000000046AEE9  Unknown               Unknown  Unknown
+--------------------------------------------------------------------------
+mpirun has exited due to process rank 1 with PID 26229 on
+node mb-opt115.cism.ucl.ac.be exiting improperly. There are two reasons this could occur:
+
+1. this process did not call "init" before exiting, but others in
+the job did. This can cause a job to hang indefinitely while it waits
+for all processes to call "init". By rule, if one process calls "init",
+then ALL processes must call "init" prior to termination.
+
+2. this process called "init", but exited without calling "finalize".
+By rule, all processes that call "init" MUST call "finalize" prior to
+exiting or it will be considered an "abnormal termination"
+
+This may have caused other processes in the application to be
+terminated by signals sent by mpirun (as reported here).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD 
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun has exited due to process rank 1 with PID 26233 on
+node mb-opt115.cism.ucl.ac.be exiting improperly. There are two reasons this could occur:
+
+1. this process did not call "init" before exiting, but others in
+the job did. This can cause a job to hang indefinitely while it waits
+for all processes to call "init". By rule, if one process calls "init",
+then ALL processes must call "init" prior to termination.
+
+2. this process called "init", but exited without calling "finalize".
+By rule, all processes that call "init" MUST call "finalize" prior to
+exiting or it will be considered an "abnormal termination"
+
+This may have caused other processes in the application to be
+terminated by signals sent by mpirun (as reported here).
+--------------------------------------------------------------------------
+[mb-opt115.cism.ucl.ac.be:26231] 1 more process has sent help message help-mpi-api.txt / mpi-abort
+[mb-opt115.cism.ucl.ac.be:26231] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD 
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun has exited due to process rank 0 with PID 26970 on
+node mb-opt115.cism.ucl.ac.be exiting improperly. There are two reasons this could occur:
+
+1. this process did not call "init" before exiting, but others in
+the job did. This can cause a job to hang indefinitely while it waits
+for all processes to call "init". By rule, if one process calls "init",
+then ALL processes must call "init" prior to termination.
+
+2. this process called "init", but exited without calling "finalize".
+By rule, all processes that call "init" MUST call "finalize" prior to
+exiting or it will be considered an "abnormal termination"
+
+This may have caused other processes in the application to be
+terminated by signals sent by mpirun (as reported here).
+--------------------------------------------------------------------------
+[mb-opt115.cism.ucl.ac.be:26969] 1 more process has sent help message help-mpi-api.txt / mpi-abort
+[mb-opt115.cism.ucl.ac.be:26969] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+slurmstepd: error: *** JOB 5424087 ON mb-opt115 CANCELLED AT 2018-04-08T00:33:48 DUE TO TIME LIMIT ***

@@ -1,0 +1,8 @@
+/usr/bin/id: cannot find name for group ID 10000
+2
+2
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+--

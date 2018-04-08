@@ -1,7 +1,7 @@
 &control
  calculation = 'scf'
  prefix = 'SnO2'
- pseudo_dir = '../Pseudo_potentials'
+ pseudo_dir = '../../Pseudo_potentials'
  outdir = './'
  !etot_conv_thr = 1.0d-3
  !forc_conv_thr = 1.0d-2
@@ -12,7 +12,7 @@
  celldm(3) = 0.67
  nat = 6
  ntyp = 2
- ecutwfc = 2 
+ ecutwfc = 50 
 /
 &electrons
  conv_thr  = 1.0d-12
