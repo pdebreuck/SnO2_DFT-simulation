@@ -21,7 +21,7 @@ for f in filenames:
 		if "kinetic-energy cutoff" in line:
 			print line
 			e = re.findall("\d+\.\d+",line)
-			ecut.append(int(e[0]))
+			ecut.append(float(e[0]))
 			break
 print acell
 print ecut

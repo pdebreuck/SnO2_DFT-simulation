@@ -3,7 +3,8 @@ import glob
 import re
 import matplotlib.pyplot as plt
 
-filenames = sorted(glob.glob('../acell-kpoints/acell_etot-e*.out'))
+filenames = sorted(glob.glob('../acell-k/Conv_acell-k*.out'))
+print filenames
 acell = []
 kpoints = []
 for f in filenames:
@@ -11,6 +12,7 @@ for f in filenames:
 		line = line.rstrip()
 		last = line
 		if "CELL_PARAMETERS" in line:
+			print last
 			a = last.split(" ")
 			print f
 			print a

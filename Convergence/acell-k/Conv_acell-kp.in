@@ -1,10 +1,10 @@
 &control
- calculation = 'scf'
+ calculation = 'vc-relax'
  prefix = 'SnO2'
  pseudo_dir = '../../Pseudo_potentials'
  outdir = './'
- !etot_conv_thr = 1.0d-3
- !forc_conv_thr = 1.0d-2
+ etot_conv_thr = 1.0d-10
+ forc_conv_thr = 1.0d-9
 /
 &system
  ibrav     = 6 !Tetragonal Primitive
@@ -12,17 +12,17 @@
  celldm(3) = 0.67
  nat = 6
  ntyp = 2
- ecutwfc = 15 
+ ecutwfc = 25 
 /
 &electrons
  conv_thr  = 1.0d-12
 /
 &ions
-!ion_dynamics='bfgs'
+ ion_dynamics='bfgs'
 /
 &cell
-!cell_dynamics='bfgs'
-!cell_dofree = 'xyz'
+ cell_dynamics='bfgs'
+ cell_dofree = 'xyz'
 /
 
 ATOMIC_SPECIES
@@ -36,4 +36,4 @@ ATOMIC_POSITIONS crystal
  O   0.306 0.306 0.000
  O   0.693 0.693 0.000
 K_POINTS automatic
-  26 26 26 0 0 0
+  8 8 8 0 0 0

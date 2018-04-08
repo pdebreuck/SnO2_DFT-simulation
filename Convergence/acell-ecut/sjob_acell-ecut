@@ -3,7 +3,7 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --job-name=scf
 #SBATCH --mem-per-cpu=4000M
-#SBATCH --time=00:50:00
+#SBATCH --time=20:50:00
 #SBATCH --mail-user=
 #SBATCH --mail-type=ALL
 #SBATCH --partition=Def
@@ -19,20 +19,9 @@ MPIOPT="-np 2"
 QE="/home/ucl/naps/gbrunin/q-e/bin/pw.x"
 
 
-${MPI} ${MPIOPT} ${QE} -inp Conv_acell-ecut.in > Conv_acell-e02.out
-sed -i -e "s/ecutwfc = 2/ecutwfc = 4/g" Conv_acell-ecut.in
-${MPI} ${MPIOPT} ${QE} -inp Conv_acell-ecut.in > Conv_acell-e04.out
-sed -i -e "s/ecutwfc = 4/ecutwfc = 8/g" Conv_acell-ecut.in
-${MPI} ${MPIOPT} ${QE} -inp Conv_acell-ecut.in > Conv_acell-e08.out
-sed -i -e "s/ecutwfc = 8/ecutwfc = 10/g" Conv_acell-ecut.in
-${MPI} ${MPIOPT} ${QE} -inp Conv_acell-ecut.in > Conv_acell-e10.out
-sed -i -e "s/ecutwfc = 10/ecutwfc = 12/g" Conv_acell-ecut.in
-${MPI} ${MPIOPT} ${QE} -inp Conv_acell-ecut.in > Conv_acell-e12.out
-sed -i -e "s/ecutwfc = 12/ecutwfc = 14/g" Conv_acell-ecut.in
-${MPI} ${MPIOPT} ${QE} -inp Conv_acell-ecut.in > Conv_acell-e14.out
-sed -i -e "s/ecutwfc = 14/ecutwfc = 16/g" Conv_acell-ecut.in
-${MPI} ${MPIOPT} ${QE} -inp Conv_acell-ecut.in > Conv_acell-e16.out
-sed -i -e "s/ecutwfc = 16/ecutwfc = 18/g" Conv_acell-ecut.in
+
+${MPI} ${MPIOPT} ${QE} -inp Conv_acell-ecut.in > Conv_acell-e15.out
+sed -i -e "s/ecutwfc = 15/ecutwfc = 18/g" Conv_acell-ecut.in
 ${MPI} ${MPIOPT} ${QE} -inp Conv_acell-ecut.in > Conv_acell-e18.out
 sed -i -e "s/ecutwfc = 18/ecutwfc = 20/g" Conv_acell-ecut.in
 ${MPI} ${MPIOPT} ${QE} -inp Conv_acell-ecut.in > Conv_acell-e20.out
@@ -48,6 +37,8 @@ sed -i -e "s/ecutwfc = 40/ecutwfc = 45/g" Conv_acell-ecut.in
 ${MPI} ${MPIOPT} ${QE} -inp Conv_acell-ecut.in > Conv_acell-e45.out
 sed -i -e "s/ecutwfc = 45/ecutwfc = 50/g" Conv_acell-ecut.in
 ${MPI} ${MPIOPT} ${QE} -inp Conv_acell-ecut.in > Conv_acell-e50.out
+sed -i -e "s/ecutwfc = 50/ecutwfc = 55/g" Conv_acell-ecut.in
+${MPI} ${MPIOPT} ${QE} -inp Conv_acell-ecut.in > Conv_acell-e55.out
 
 
 echo "--"

@@ -12,17 +12,17 @@
  celldm(3) = 0.67
  nat = 6
  ntyp = 2
- ecutwfc = 8 
+ ecutwfc = 15 
 /
 &electrons
  conv_thr  = 1.0d-12
 /
 &ions
-!ion_dynamics='bfgs'
+ ion_dynamics='bfgs'
 /
 &cell
-!cell_dynamics='bfgs'
-!cell_dofree = 'xyz'
+ cell_dynamics='bfgs'
+ cell_dofree = 'xyz'
 /
 
 ATOMIC_SPECIES
@@ -36,4 +36,4 @@ ATOMIC_POSITIONS crystal
  O   0.306 0.306 0.000
  O   0.693 0.693 0.000
 K_POINTS automatic
- 10 10 10 0 0 0
+ 12 12 12 0 0 0
