@@ -3,19 +3,20 @@ import glob
 import re
 import matplotlib.pyplot as plt
 
-filenames = sorted(glob.glob('../acell-ecut/acell_etot-e*.out'))
+filenames = sorted(glob.glob('../acell-ecut/Conv_acell-e*.out'))
+print filenames
 acell = []
 ecut = []
 for f in filenames:
 	for line in reversed(open(f).readlines()):
 		line = line.rstrip()
-		last = line
 		if "CELL_PARAMETERS" in line:
-			a = last.split(" ")
+			a = re.findall("\d+\.\d+",last)
 			print f
 			print a
 			acell.append(float(a[0]))
 			break
+		last = line
 	for line in open(f).readlines():
 		line = line.rstrip()
 		if "kinetic-energy cutoff" in line:

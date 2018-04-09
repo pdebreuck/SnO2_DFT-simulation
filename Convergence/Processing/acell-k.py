@@ -10,14 +10,14 @@ kpoints = []
 for f in filenames:
 	for line in reversed(open(f).readlines()):
 		line = line.rstrip()
-		last = line
 		if "CELL_PARAMETERS" in line:
 			print last
-			a = last.split(" ")
+			a = re.findall("\d+\.\d+",last)
 			print f
 			print a
 			acell.append(float(a[0]))
 			break
+		last = line
 	for line in open(f).readlines():
 		line = line.rstrip()
 		if "number of k points=" in line:
@@ -28,6 +28,7 @@ for f in filenames:
 print acell
 print kpoints
 plt.plot(kpoints,acell,'o-')
+plt.ylim([0.7, 0.9])
 plt.xlabel('number of k points')
 plt.ylabel('Lattice parameter')
 plt.title('acell - kpoints convergence')
