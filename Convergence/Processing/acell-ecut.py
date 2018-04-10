@@ -26,6 +26,7 @@ for f in filenames:
 			break
 print acell
 print ecut
+acell =[x*9.11 for x in acell]
 plt.plot(ecut,acell,'o-')
 plt.xlabel('kinetic energy cutoff')
 plt.ylabel('Lattice parameter')
