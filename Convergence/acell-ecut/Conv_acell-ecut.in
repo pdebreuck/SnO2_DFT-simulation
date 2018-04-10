@@ -12,7 +12,7 @@
  celldm(3) = 0.67
  nat = 6
  ntyp = 2
- ecutwfc = 45 
+ ecutwfc = 70 
 /
 &electrons
  conv_thr  = 1.0d-12
