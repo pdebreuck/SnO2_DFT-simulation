@@ -1,5 +1,5 @@
 
-     Program PWSCF v.6.2.2 starts on  7Apr2018 at 23:41: 9 
+     Program PWSCF v.6.2.2 starts on 18Apr2018 at 17:14:26 
 
      This program is part of the open-source Quantum ESPRESSO suite
      for quantum simulation of materials; please cite
@@ -108,15 +108,15 @@ Warning: card / ignored
          5           O   tau(   5) = (   0.3060000   0.3060000   0.0000000  )
          6           O   tau(   6) = (   0.6930000   0.6930000   0.0000000  )
 
-     number of k points=   186
+     number of k points=   301
 
      Number of k-points >= 100: set verbosity='high' to print them.
 
      Dense  grid:      181 G-vectors     FFT dimensions: (   9,   9,   5)
 
-     Estimated max dynamical RAM per process >       2.20 MB
+     Estimated max dynamical RAM per process >       2.74 MB
 
-     Estimated total dynamical RAM >       4.39 MB
+     Estimated total dynamical RAM >       5.49 MB
 
      Check: negative/imaginary core charge=   -0.037807    0.000000
 
@@ -129,7 +129,7 @@ Warning: card / ignored
      Starting wfc are   34 randomized atomic wfcs
 
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-     Error in routine cdiaghg (58):
+     Error in routine cdiaghg (59):
      S matrix not positive definite
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
