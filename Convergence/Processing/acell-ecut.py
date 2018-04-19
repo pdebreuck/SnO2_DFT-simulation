@@ -27,7 +27,7 @@ for f in filenames:
 print acell
 print ecut
 acell =[x*9.11 for x in acell]
-plt.plot(ecut,acell,'o-')
+plt.plot(ecut,acell,'o-',ecut,[acell[-1]*(1-0.002) for x in acell],'--',ecut,[acell[-1]*(1+0.002) for x in acell],'--')
 plt.xlabel('kinetic energy cutoff')
 plt.ylabel('Lattice parameter')
 plt.title('acell - ecut convergence')
