@@ -38,23 +38,35 @@ print ecut
 acell =[x*9.11 for x in acell]
 ccell =[x*9.11 for x in ccell]
 
+ona = [acell[-1] for x in acell]
+onc = [ccell[-1] for x in acell]
 aupper = [acell[-1]*(1+0.002) for x in acell]
 alower = [acell[-1]*(1-0.002) for x in acell]
 cupper = [ccell[-1]*(1+0.002) for x in ccell]
 clower = [ccell[-1]*(1-0.002) for x in ccell]
 
 plt.figure()
-plt.plot(ecut,acell,'o-',ecut,alower,'--',ecut,aupper,'--')
+plt.plot(ecut,acell,'o-',ecut,ona,'--')
 plt.xlabel('Kinetic energy cutoff')
 plt.ylabel('Lattice parameter a')
 plt.title('acell - ecut convergence')
+plt.axes([0.45,0.2,0.4,0.3])
+plt.plot(ecut,acell,'o-',ecut,alower,'--',ecut,aupper,'--')
+plt.xlim([60,100])
+plt.ylim([9.05,9.2])
+plt.title('zoom')
 plt.savefig('acell-ecut.png')
 
 plt.figure()
-plt.plot(ecut,ccell,'o-',ecut,clower,'--',ecut,c	upper,'--')
+plt.plot(ecut,ccell,'o-',ecut,onc,'--')
 plt.xlabel('Kinetic energy cutoff')
 plt.ylabel('Lattice parameter c')
 plt.title('ccell - ecut convergence')
+plt.axes([0.45,0.2,0.4,0.3])
+plt.plot(ecut,ccell,'o-',ecut,clower,'--',ecut,cupper,'--')
+plt.xlim([60,100])
+plt.ylim([6.05,6.2])
+plt.title('zoom')
 plt.savefig('ccell-ecut.png')
 
 plt.show()

@@ -2,11 +2,12 @@
 import glob
 import re
 import matplotlib.pyplot as plt
+import numpy as np
 
 filenames = sorted(glob.glob('../etot-k/Conv_etot-k*.out'))
 energies = []
-nkpoints = []
 kpoints = []
+kpointsg = []
 for f in filenames:
 	for line in reversed(open(f).readlines()):
 		line = line.rstrip()
@@ -21,19 +22,21 @@ for f in filenames:
 		if "number of k points=" in line:
 			print line
 			k = re.findall("\d+",line)
-			nkpoints.append(int(k[0]))
+			kpoints.append(int(k[0]))
 			break
-	nk = re.findall("Conv_etot-k\d\d.out",f)
-	nkpoints.append(int(nk[0]))
+	k = re.findall("\d\d",f)
+	kpointsg.append(int(k[0]))
 
 energies =  [x*-0.5 for x in energies]	#in Hartree
-upper = [energies[-1]+(0.005*6) for x in nkpoints]
-lower = [energies[-1]-(0.005*6) for x in nkpoints]
+mean = np.mean(energies[-4:])
+upper = [mean+(0.005*6) for x in kpointsg]
+lower = [mean-(0.005*6) for x in kpointsg]
+mean = [mean for x in kpointsg]
 
 print energies
 print kpoints
-print kpoints
-plt.plot(nkpoints,energies,'o-',nkpoints,lower,'--',nkpoints,upper,'--')
+print kpointsg
+plt.plot(kpointsg,energies,'o-',kpointsg,lower,'--',kpointsg,upper,'--',kpointsg,mean,':')
 #plt.ylim([399, 399.3])
 plt.xlabel('nk X nk X nk grid')
 plt.ylabel('Total energy (Ha)')
