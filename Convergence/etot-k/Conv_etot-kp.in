@@ -1,7 +1,7 @@
 &control
  calculation = 'scf'
  prefix = 'SnO2'
- pseudo_dir = '../Pseudo_potentials'
+ pseudo_dir = '../../Pseudo_potentials'
  outdir = './'
  !etot_conv_thr = 1.0d-3
  !forc_conv_thr = 1.0d-2
@@ -36,4 +36,4 @@ ATOMIC_POSITIONS crystal
  O   0.306 0.306 0.000
  O   0.693 0.693 0.000
 K_POINTS automatic
-  26 26 26 0 0 0
+  1 1 1 0 0 0
