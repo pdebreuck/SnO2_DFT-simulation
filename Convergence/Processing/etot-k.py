@@ -35,7 +35,7 @@ print kpoints
 print kpoints
 plt.plot(nkpoints,energies,'o-',nkpoints,lower,'--',nkpoints,upper,'--')
 #plt.ylim([399, 399.3])
-plt.xlabel('nk x nk x nk grid')
+plt.xlabel('nk X nk X nk grid')
 plt.ylabel('Total energy (Ha)')
 plt.title('Energy - kpoints convergence')
 plt.savefig('etot-k.png')
