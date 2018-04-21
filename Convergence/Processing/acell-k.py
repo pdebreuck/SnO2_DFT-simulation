@@ -27,6 +27,7 @@ for f in filenames:
 			break
 print acell
 print kpoints
+print str(max(acell[-4:])-min(acell[-4:]))
 plt.plot(kpoints,acell,'o-')
 plt.ylim([0.7, 0.9])
 plt.xlabel('number of k points')

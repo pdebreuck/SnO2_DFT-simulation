@@ -22,10 +22,11 @@ for f in filenames:
 			print line
 			k = re.findall("\d+",line)
 			kpoints.append(int(k[0]))
-			break
+			break	
 print energies
 print kpoints
 plt.plot(kpoints,energies,'o-')
+#plt.ylim([399, 399.3])
 plt.xlabel('number k points')
 plt.ylabel('Total energy (Ry)')
 plt.title('Energy - kpoints convergence')
