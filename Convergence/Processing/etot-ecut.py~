@@ -26,16 +26,11 @@ for f in filenames:
 			e = re.findall("\d+\.\d+",line)
 			ecut.append(float(e[0]))
 			break
-
-energies =  [x*-0.5 for x in energies]	#in Hartree
-upper = [energies[-1]+(0.005*6) for x in ecut]
-lower = [energies[-1]-(0.005*6) for x in ecut]
-
 print energies
 print ecut
-plt.plot(ecut,energies,'o-',ecut,lower,'--',ecut,upper,'--')
-plt.xlabel('kinetic energy cutoff (Ry)')
-plt.ylabel('Total energy (Ha)')
+plt.plot(ecut,energies,'o-')
+plt.xlabel('kinetic energy cutoff')
+plt.ylabel('Total energy (Ry)')
 plt.title('Energy - ecut convergence')
 plt.savefig('etot-ecut.png')
 plt.show()

@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 
 filenames = sorted(glob.glob('../etot-k/Conv_etot-k*.out'))
 energies = []
+nkpoints = []
 kpoints = []
-
 for f in filenames:
 	for line in reversed(open(f).readlines()):
 		line = line.rstrip()
@@ -21,14 +21,22 @@ for f in filenames:
 		if "number of k points=" in line:
 			print line
 			k = re.findall("\d+",line)
-			kpoints.append(int(k[0]))
-			break	
+			nkpoints.append(int(k[0]))
+			break
+	nk = re.findall("Conv_etot-k\d\d.out",f)
+	nkpoints.append(int(nk[0]))
+
+energies =  [x*-0.5 for x in energies]	#in Hartree
+upper = [energies[-1]+(0.005*6) for x in nkpoints]
+lower = [energies[-1]-(0.005*6) for x in nkpoints]
+
 print energies
 print kpoints
-plt.plot(kpoints,energies,'o-')
+print kpoints
+plt.plot(nkpoints,energies,'o-',nkpoints,lower,'--',nkpoints,upper,'--')
 #plt.ylim([399, 399.3])
-plt.xlabel('number k points')
-plt.ylabel('Total energy (Ry)')
+plt.xlabel('nk x nk x nk grid')
+plt.ylabel('Total energy (Ha)')
 plt.title('Energy - kpoints convergence')
 plt.savefig('etot-k.png')
 plt.show()
