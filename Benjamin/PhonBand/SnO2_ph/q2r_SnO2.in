@@ -1,0 +1,6 @@
+&input
+ fildyn='SnO2.dynmat',
+ zasr='simple'
+ flfrc='SnO2_444.fc'
+/
+

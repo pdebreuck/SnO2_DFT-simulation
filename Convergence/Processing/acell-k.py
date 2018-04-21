@@ -28,11 +28,10 @@ for f in filenames:
 print acell
 print kpoints
 print str(max(acell[-4:])-min(acell[-4:]))
-plt.plot(kpoints,acell,'o-')
+plt.plot(kpoints,acell,'o-',kpoints,[acell[-1]*(1-0.002) for x in acell],'--',kpoints,[acell[-1]*(1+0.002) for x in acell],'--')
 plt.ylim([0.7, 0.9])
 plt.xlabel('number of k points')
 plt.ylabel('Lattice parameter')
 plt.title('acell - kpoints convergence')
 plt.savefig('acell-kpoints.png')
 plt.show()
-

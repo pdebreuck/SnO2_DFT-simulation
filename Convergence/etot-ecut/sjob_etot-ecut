@@ -48,6 +48,16 @@ sed -i -e "s/ecutwfc = 40/ecutwfc = 45/g" Conv_etot-ecut.in
 ${MPI} ${MPIOPT} ${QE} -inp Conv_etot-ecut.in > Conv_etot-e45.out
 sed -i -e "s/ecutwfc = 45/ecutwfc = 50/g" Conv_etot-ecut.in
 ${MPI} ${MPIOPT} ${QE} -inp Conv_etot-ecut.in > Conv_etot-e50.out
+sed -i -e "s/ecutwfc = 50/ecutwfc = 55/g" Conv_etot-ecut.in
+${MPI} ${MPIOPT} ${QE} -inp Conv_etot-ecut.in > Conv_etot-e55.out
+sed -i -e "s/ecutwfc = 55/ecutwfc = 60/g" Conv_etot-ecut.in
+${MPI} ${MPIOPT} ${QE} -inp Conv_etot-ecut.in > Conv_etot-e60.out
+sed -i -e "s/ecutwfc = 60/ecutwfc = 65/g" Conv_etot-ecut.in
+${MPI} ${MPIOPT} ${QE} -inp Conv_etot-ecut.in > Conv_etot-e65.out
+sed -i -e "s/ecutwfc = 65/ecutwfc = 70/g" Conv_etot-ecut.in
+${MPI} ${MPIOPT} ${QE} -inp Conv_etot-ecut.in > Conv_etot-e70.out
+sed -i -e "s/ecutwfc = 70/ecutwfc = 75/g" Conv_etot-ecut.in
+${MPI} ${MPIOPT} ${QE} -inp Conv_etot-ecut.in > Conv_etot-e75.out
 
 
 echo "--"

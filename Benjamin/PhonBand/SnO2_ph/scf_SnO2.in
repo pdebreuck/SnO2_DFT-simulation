@@ -1,0 +1,41 @@
+&control
+    calculation = 'scf'
+    restart_mode='from_scratch'				 ! = default value
+    prefix='SnO2'
+    tstress = .true.					 ! calculate stresses
+    tprnfor = .true.					 ! calculate forces
+    pseudo_dir = '../../../Pseudo_potentials'
+    outdir='./'
+ /
+ &system
+    ibrav=  6 						! tetragonal primitive
+    nat=  6	
+    ntyp= 2
+    celldm(1)=9.13701
+    celldm(3)=0.67359
+    ecutwfc = 95					! 20
+   ! ecutrho=80.0 					! default = 4*ecutwfc
+   ! nbnd=8 						! default = insulator: #valence bands, metals :+20%
+   ! occupations='fixed'
+ /
+ &electrons
+   ! mixing_mode = 'plain'  				! = default
+   ! mixing_beta = 0.5
+    conv_thr =  1.0d-20
+ /
+ &ions
+ /
+ &cell
+ /
+ATOMIC_SPECIES 
+ Sn 118.71 Sn_PBE.upf
+ O  15.999 O_PBE.upf
+ATOMIC_POSITIONS crystal
+ Sn  0.00 0.00 0.00
+ Sn  0.50 0.50 0.50
+ O   0.806 0.193  0.500
+ O   0.193 0.806 0.500
+ O   0.306 0.306 0.000
+ O   0.693 0.693 0.000
+K_POINTS automatic
+  24 24 24 0 0 0
