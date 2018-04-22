@@ -57,7 +57,7 @@ for line in open(bfile).readlines():
 		if j==nbands:
 			j=0
 		for e in eigen:
-			energies[j].append(eigen)
+			energies[j].append(e)
 			j = j+1
 
 
@@ -79,12 +79,14 @@ i=0
 #print energies
 
 
-
+# 6.51
 plt.figure()
 for x in energies:
+	print x
+	x = [float(y)+6.51 for y in x]
 	plt.plot(kpoints,x,'-b',)
 plt.xlabel('Reciprocal space')
-plt.ylabel('E')
+plt.ylabel('E-Ef (eV)')
 plt.title('Electronic band structure')
 plt.xlim([0,kpoints[-1]])
 plt.xticks(ticks,tickslabel)
