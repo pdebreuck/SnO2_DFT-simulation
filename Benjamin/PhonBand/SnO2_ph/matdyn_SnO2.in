@@ -2,7 +2,7 @@
     asr='simple',
     amass(1)= 118.71
     amass(2)= 15.999
-    flfrc='SnO2_444.fc', flfrq='SnO2.freq'
+    flfrc='SnO2_222.fc', flfrq='SnO2.freq'
     q_in_band_form=.true.
  /
  284
