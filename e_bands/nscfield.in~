@@ -1,0 +1,40 @@
+&control
+ calculation = 'nscf'
+ prefix = 'SnO2'
+ pseudo_dir = '../Pseudo_potentials'
+ outdir = './'
+ !etot_conv_thr = 1.0d-3
+ !forc_conv_thr = 1.0d-2
+ wf_collect = .true 
+/
+&system
+ ibrav     = 6 !Tetragonal Primitive
+ celldm(1) = 9.137032968  !lattice parameter in a.u. = a = 4.835A
+ celldm(3) = 0.671597737
+ nat = 6
+ ntyp = 2
+ ecutwfc = 75
+/
+&electrons
+ conv_thr  = 1.0d-12
+/
+&ions
+!ion_dynamics='bfgs'
+/
+&cell
+!cell_dynamics='bfgs'
+!cell_dofree = 'xyz'
+/
+
+ATOMIC_SPECIES
+ Sn 118.71 Sn_PBE.upf
+ O  15.999 O_PBE.upf
+ATOMIC_POSITIONS crystal
+ Sn      -0.000331970  -0.000331970   0.000000000
+ Sn       0.499667480   0.499667480   0.500000000
+ O        0.806369198   0.192961781   0.500000000
+ O        0.192961781   0.806369198   0.500000000
+ O        0.306370463   0.306370463   0.000000000
+ O        0.692963048   0.692963048   0.000000000
+K_POINTS automatic
+  4 4 4 0 0 0

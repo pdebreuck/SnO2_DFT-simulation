@@ -1,0 +1,157 @@
+
+     Program PWSCF v.6.2.2 starts on 22Apr2018 at 18:17: 2 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on     2 processors
+
+     MPI processes distributed on     1 nodes
+     R & G space division:  proc/nbgrp/npool/nimage =       2
+     Reading input from nscfield.in
+Warning: card &IONS ignored
+Warning: card / ignored
+Warning: card &CELL ignored
+Warning: card / ignored
+
+     Current dimensions of program PWSCF are:
+     Max number of different atomic species (ntypx) = 10
+     Max number of k-points (npk) =  40000
+     Max angular momentum in pseudopotentials (lmaxx) =  3
+
+     Atomic positions and unit cell read from directory:
+     ./SnO2.save/
+ 
+
+     Subspace diagonalization in iterative solution of the eigenvalue problem:
+     a serial algorithm will be used
+
+ 
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min        1000    1000    296                22472    22472    3577
+     Max        1001    1001    297                22473    22473    3578
+     Sum        2001    2001    593                44945    44945    7155
+ 
+
+
+     bravais-lattice index     =            6
+     lattice parameter (alat)  =       9.1370  a.u.
+     unit-cell volume          =     512.3005 (a.u.)^3
+     number of atoms/cell      =            6
+     number of atomic types    =            2
+     number of electrons       =        52.00
+     number of Kohn-Sham states=           31
+     kinetic-energy cutoff     =      75.0000  Ry
+     charge density cutoff     =     300.0000  Ry
+     Exchange-correlation      = PBE ( 1  4  3  4 0 0)
+
+     celldm(1)=   9.137033  celldm(2)=   1.000000  celldm(3)=   0.671598
+     celldm(4)=   0.000000  celldm(5)=   0.000000  celldm(6)=   0.000000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (   1.000000   0.000000   0.000000 )  
+               a(2) = (   0.000000   1.000000   0.000000 )  
+               a(3) = (   0.000000   0.000000   0.671598 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = (  1.000000  0.000000  0.000000 )  
+               b(2) = (  0.000000  1.000000  0.000000 )  
+               b(3) = (  0.000000  0.000000  1.488987 )  
+
+
+     PseudoPot. # 1 for Sn read from file:
+     ../Pseudo_potentials/Sn_PBE.upf
+     MD5 check sum: 78e6386ae56e929f0568ae8bf606a80c
+     Pseudo is Norm-conserving + core correction, Zval = 14.0
+     Generated using ONCVPSP code by D. R. Hamann
+     Using radial grid of 1628 points,  6 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+
+     PseudoPot. # 2 for O  read from file:
+     ../Pseudo_potentials/O_PBE.upf
+     MD5 check sum: 3e3f909f7470e8921608ab6b1f57bbae
+     Pseudo is Norm-conserving + core correction, Zval =  6.0
+     Generated using ONCVPSP code by D. R. Hamann
+     Using radial grid of  936 points,  5 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+
+     atomic species   valence    mass     pseudopotential
+        Sn            14.00   118.71000     Sn( 1.00)
+        O              6.00    15.99900     O ( 1.00)
+
+      4 Sym. Ops. (no inversion) found
+
+
+
+   Cartesian axes
+
+     site n.     atom                  positions (alat units)
+         1           Sn  tau(   1) = (  -0.0003320  -0.0003320   0.0000000  )
+         2           Sn  tau(   2) = (   0.4996675   0.4996675   0.3357989  )
+         3           O   tau(   3) = (   0.8063692   0.1929618   0.3357989  )
+         4           O   tau(   4) = (   0.1929618   0.8063692   0.3357989  )
+         5           O   tau(   5) = (   0.3063705   0.3063705   0.0000000  )
+         6           O   tau(   6) = (   0.6929630   0.6929630   0.0000000  )
+
+     number of k points=    21  gaussian smearing, width (Ry)=  0.0010
+                       cart. coord. in units 2pi/alat
+        k(    1) = (   0.0000000   0.0000000   0.0000000), wk =   0.0312500
+        k(    2) = (   0.0000000   0.0000000   0.3722466), wk =   0.0625000
+        k(    3) = (   0.0000000   0.0000000  -0.7444933), wk =   0.0312500
+        k(    4) = (   0.0000000   0.2500000   0.0000000), wk =   0.1250000
+        k(    5) = (   0.0000000   0.2500000   0.3722466), wk =   0.2500000
+        k(    6) = (   0.0000000   0.2500000  -0.7444933), wk =   0.1250000
+        k(    7) = (   0.0000000  -0.5000000   0.0000000), wk =   0.0625000
+        k(    8) = (   0.0000000  -0.5000000   0.3722466), wk =   0.1250000
+        k(    9) = (   0.0000000  -0.5000000  -0.7444933), wk =   0.0625000
+        k(   10) = (   0.2500000   0.2500000   0.0000000), wk =   0.0625000
+        k(   11) = (   0.2500000   0.2500000   0.3722466), wk =   0.1250000
+        k(   12) = (   0.2500000   0.2500000  -0.7444933), wk =   0.0625000
+        k(   13) = (   0.2500000  -0.5000000   0.0000000), wk =   0.1250000
+        k(   14) = (   0.2500000  -0.5000000   0.3722466), wk =   0.2500000
+        k(   15) = (   0.2500000  -0.5000000  -0.7444933), wk =   0.1250000
+        k(   16) = (  -0.5000000  -0.5000000   0.0000000), wk =   0.0312500
+        k(   17) = (  -0.5000000  -0.5000000   0.3722466), wk =   0.0625000
+        k(   18) = (  -0.5000000  -0.5000000  -0.7444933), wk =   0.0312500
+        k(   19) = (   0.2500000  -0.2500000   0.0000000), wk =   0.0625000
+        k(   20) = (   0.2500000  -0.2500000   0.3722466), wk =   0.1250000
+        k(   21) = (   0.2500000  -0.2500000  -0.7444933), wk =   0.0625000
+
+     Dense  grid:    44945 G-vectors     FFT dimensions: (  54,  54,  36)
+
+     Estimated max dynamical RAM per process >      27.92 MB
+
+     Estimated total dynamical RAM >      55.84 MB
+
+     Check: negative/imaginary core charge=   -0.000002    0.000000
+
+     The potential is recalculated from file :
+     ./SnO2.save/charge-density.dat
+
+     Starting wfc are   34 randomized atomic wfcs
+
+     Band Structure Calculation
+     Davidson diagonalization with overlap
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine cdiaghg (204):
+     S matrix not positive definite
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
