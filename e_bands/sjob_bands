@@ -3,7 +3,7 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --job-name=scf
 #SBATCH --mem-per-cpu=4000M
-#SBATCH --time=02:30:00
+#SBATCH --time=00:20:00
 #SBATCH --mail-user=
 #SBATCH --mail-type=ALL
 #SBATCH --partition=Def
@@ -19,7 +19,7 @@ MPIOPT="-np 2"
 QE="/home/ucl/naps/gbrunin/q-e/bin/pw.x"
 
 
-${MPI} ${MPIOPT} ${QE} -inp bands.in > bands.out
+${MPI} ${MPIOPT} ${QE} -inp el-bands.in > el-bands.out
 
 
 echo "--"
