@@ -14,9 +14,10 @@
  nat = 6
  ntyp = 2
  ecutwfc = 75
+ nbnd = 28
 /
 &electrons
- conv_thr  = 1.0d-12
+ conv_thr  = 1.0d-18
 /
 &ions
 !ion_dynamics='bfgs'
@@ -37,4 +38,4 @@ ATOMIC_POSITIONS crystal
  O        0.306370463   0.306370463   0.000000000
  O        0.692963048   0.692963048   0.000000000
 K_POINTS automatic
-  4 4 4 0 0 0
+ 4 4 4 0 0 0
