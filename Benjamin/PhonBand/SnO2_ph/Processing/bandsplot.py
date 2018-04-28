@@ -3,13 +3,13 @@ import glob
 import re
 import matplotlib.pyplot as plt
 
-nbands = 26
+nbands = 18
 
 i=0
 print type(i)
 kpoints=[]
 energies =[[] for x in range(nbands)]
-bfile = "../el-bands.out"
+bfile = "../SnO2.freq"
 pfile ="points"
 spoints = {} 
 begin = 0
