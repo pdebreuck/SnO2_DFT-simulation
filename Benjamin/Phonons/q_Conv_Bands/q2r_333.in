@@ -1,0 +1,6 @@
+&input
+ fildyn='333.dynmat',
+ zasr='simple'
+ flfrc='333.fc'
+/
+

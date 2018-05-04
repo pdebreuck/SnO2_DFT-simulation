@@ -15,9 +15,9 @@ export OMP_NUM_THREADS=1
 unset SLURM_CPUS_PER_TASK
 
 MPI="mpirun"
-MPIOPT="-np 1"
+MPIOPT="-np 2"
 QE="/home/ucl/naps/gbrunin/q-e/bin/q2r.x"
 
-${MPI} ${MPIOPT} ${QE} < q2r_SnO2.in > q2r_SnO2.out
+${MPI} ${MPIOPT} ${QE} < q2r_333.in > q2r_333.out
 
 echo "--"

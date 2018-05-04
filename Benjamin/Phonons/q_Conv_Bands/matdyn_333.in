@@ -2,7 +2,7 @@
     asr='simple',
     amass(1)= 118.71
     amass(2)= 15.999
-    flfrc='222.fc', flfrq='222.freq'
+    flfrc='333.fc', flfrq='333.freq'
     q_in_band_form=.true.
  /
  284

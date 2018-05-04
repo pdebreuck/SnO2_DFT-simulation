@@ -1,7 +1,7 @@
 &control
     calculation = 'scf'
     restart_mode='from_scratch'				 ! = default value
-    prefix='333'
+    prefix='444'
     tstress = .true.					 ! calculate stresses
     tprnfor = .true.					 ! calculate forces
     pseudo_dir = '../../../Pseudo_potentials'
