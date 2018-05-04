@@ -1,0 +1,77 @@
+
+     Program Q2R v.6.2.2 starts on 22Apr2018 at 23:58:22 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on     1 processors
+
+     MPI processes distributed on     1 nodes
+
+     reading grid info from file SnO2.dynmat0    
+  reading force constants from file SnO2.dynmat1
+ macroscopic fields = T
+   5.79203   0.00000   0.00000
+   0.00000   5.79203   0.00000
+   0.00000   0.00000   5.42985
+  na=            1
+   4.16234   0.57555   0.00000
+   0.57555   4.16234   0.00000
+   0.00000   0.00000   4.58746
+  na=            2
+   4.16234  -0.57555   0.00000
+  -0.57555   4.16234   0.00000
+   0.00000   0.00000   4.58746
+  na=            3
+  -2.10094   0.85825   0.00000
+   0.85824  -2.10090   0.00000
+   0.00000   0.00000  -2.35608
+  na=            4
+  -2.10090   0.85824   0.00000
+   0.85825  -2.10094   0.00000
+   0.00000   0.00000  -2.35608
+  na=            5
+  -2.10091  -0.85823   0.00000
+  -0.85823  -2.10091   0.00000
+   0.00000   0.00000  -2.35608
+  na=            6
+  -2.10093  -0.85825   0.00000
+  -0.85825  -2.10093   0.00000
+   0.00000   0.00000  -2.35608
+  nqs=            1
+ q=   0.00000000  0.00000000  0.00000000
+  reading force constants from file SnO2.dynmat2
+  nqs=            1
+ q=   0.00000000  0.00000000 -0.74449328
+  reading force constants from file SnO2.dynmat3
+  nqs=            2
+ q=   0.00000000 -0.50000000  0.00000000
+ q=  -0.50000000  0.00000000  0.00000000
+  reading force constants from file SnO2.dynmat4
+  nqs=            2
+ q=   0.00000000 -0.50000000 -0.74449328
+ q=  -0.50000000  0.00000000  0.74449328
+  reading force constants from file SnO2.dynmat5
+  nqs=            1
+ q=  -0.50000000 -0.50000000  0.00000000
+  reading force constants from file SnO2.dynmat6
+  nqs=            1
+ q=  -0.50000000 -0.50000000 -0.74449328
+
+      q-space grid ok, #points =    8
+
+      fft-check warning: sum of imaginary terms = 7.826087E-07
+ 
+     Q2R          :     0.01s CPU         0.05s WALL
+
+ 
+   This run was terminated on:  23:58:22  22Apr2018            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=
