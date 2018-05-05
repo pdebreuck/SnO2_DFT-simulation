@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#SBATCH --ntasks=1
+#SBATCH --job-name=SnO2-ai-relax
+#SBATCH --mem-per-cpu=4000M
+#SBATCH --time=00:40:00
+#SBATCH --cpus-per-task=1
+#SBATCH --mail-user=
+#SBATCH --mail-type=ALL
+#SBATCH --output out           
+#SBATCH --error error
+#SBATCH --partition=Def
+     
+
+source /home/ucl/naps/dardenne/.bashrc
+
+/home/ucl/naps/vantroeyeb/abinit-8.6.3/build/src/98_main/abinit < relax.files >& log

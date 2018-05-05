@@ -1,0 +1,47 @@
+#Optimization of the lattice parameters
+optcell 2
+ionmov  2
+ntime  100
+dilatmx 1.05
+ecutsm  0.5
+
+tolmxde 0.5d-10
+tolmxf 0.5d-9
+
+#Definition of the k-point grids
+kptopt 1        
+
+ngkpt  4 4 4 
+
+
+
+#Definition of the unit cell
+acell 9.11 9.11 6.1037         # acell(c) = 0.67*9.11 = 6.1037
+rprim  1 0 0   
+       0 1 0   
+       0 0 1
+
+#Definition of the atom types
+ntypat 2         
+znucl 50 8         
+                  
+                         
+
+#Definition of the atoms
+natom 6           
+typat 1 1 2 2 2 2        
+xred              
+ 0.00 0.00 0.00
+ 0.50 0.50 0.50
+ 0.806 0.193  0.500
+ 0.193 0.806 0.500
+ 0.306 0.306 0.000
+ 0.693 0.693 0.000
+
+#Definition of the planewave basis set
+ecut 37.5 #  = 75 Rydberg
+
+#Definition of the SCF procedure
+nstep 30          
+toldfe 0.5d-12     
+diemac 12.0       
