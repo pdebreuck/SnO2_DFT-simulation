@@ -1,0 +1,164 @@
+
+     Program Q2R v.6.2.2 starts on  5May2018 at 18: 5: 0 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on     2 processors
+
+     MPI processes distributed on     1 nodes
+     R & G space division:  proc/nbgrp/npool/nimage =       2
+
+     reading grid info from file 444.dynmat0    
+  reading force constants from file 444.dynmat1
+ macroscopic fields = T
+   5.79203   0.00000   0.00000
+   0.00000   5.79203   0.00000
+   0.00000   0.00000   5.42985
+  na=            1
+   4.16234   0.57555   0.00000
+   0.57555   4.16234   0.00000
+   0.00000   0.00000   4.58746
+  na=            2
+   4.16234  -0.57555   0.00000
+  -0.57555   4.16234   0.00000
+   0.00000   0.00000   4.58746
+  na=            3
+  -2.10094   0.85825   0.00000
+   0.85824  -2.10090   0.00000
+   0.00000   0.00000  -2.35608
+  na=            4
+  -2.10090   0.85824   0.00000
+   0.85825  -2.10094   0.00000
+   0.00000   0.00000  -2.35608
+  na=            5
+  -2.10091  -0.85823   0.00000
+  -0.85823  -2.10091   0.00000
+   0.00000   0.00000  -2.35608
+  na=            6
+  -2.10093  -0.85825   0.00000
+  -0.85825  -2.10093   0.00000
+   0.00000   0.00000  -2.35608
+  nqs=            1
+ q=   0.00000000  0.00000000  0.00000000
+  reading force constants from file 444.dynmat2
+  nqs=            2
+ q=   0.00000000  0.00000000  0.37224664
+ q=   0.00000000  0.00000000 -0.37224664
+  reading force constants from file 444.dynmat3
+  nqs=            1
+ q=   0.00000000  0.00000000 -0.74449328
+  reading force constants from file 444.dynmat4
+  nqs=            4
+ q=   0.00000000  0.25000000  0.00000000
+ q=   0.00000000 -0.25000000  0.00000000
+ q=   0.25000000  0.00000000  0.00000000
+ q=  -0.25000000  0.00000000  0.00000000
+  reading force constants from file 444.dynmat5
+  nqs=            8
+ q=   0.00000000  0.25000000  0.37224664
+ q=   0.00000000 -0.25000000 -0.37224664
+ q=   0.00000000  0.25000000 -0.37224664
+ q=   0.00000000 -0.25000000  0.37224664
+ q=   0.25000000  0.00000000  0.37224664
+ q=  -0.25000000  0.00000000 -0.37224664
+ q=   0.25000000  0.00000000 -0.37224664
+ q=  -0.25000000  0.00000000  0.37224664
+  reading force constants from file 444.dynmat6
+  nqs=            4
+ q=   0.00000000  0.25000000 -0.74449328
+ q=   0.00000000 -0.25000000  0.74449328
+ q=   0.25000000  0.00000000 -0.74449328
+ q=  -0.25000000  0.00000000  0.74449328
+  reading force constants from file 444.dynmat7
+  nqs=            2
+ q=   0.00000000 -0.50000000  0.00000000
+ q=  -0.50000000  0.00000000  0.00000000
+  reading force constants from file 444.dynmat8
+  nqs=            4
+ q=   0.00000000 -0.50000000  0.37224664
+ q=   0.00000000 -0.50000000 -0.37224664
+ q=  -0.50000000  0.00000000  0.37224664
+ q=  -0.50000000  0.00000000 -0.37224664
+  reading force constants from file 444.dynmat9
+  nqs=            2
+ q=   0.00000000 -0.50000000 -0.74449328
+ q=  -0.50000000  0.00000000 -0.74449328
+  reading force constants from file 444.dynmat10
+  nqs=            2
+ q=   0.25000000  0.25000000  0.00000000
+ q=  -0.25000000 -0.25000000  0.00000000
+  reading force constants from file 444.dynmat11
+  nqs=            4
+ q=   0.25000000  0.25000000  0.37224664
+ q=  -0.25000000 -0.25000000 -0.37224664
+ q=   0.25000000  0.25000000 -0.37224664
+ q=  -0.25000000 -0.25000000  0.37224664
+  reading force constants from file 444.dynmat12
+  nqs=            2
+ q=   0.25000000  0.25000000 -0.74449328
+ q=  -0.25000000 -0.25000000  0.74449328
+  reading force constants from file 444.dynmat13
+  nqs=            4
+ q=   0.25000000 -0.50000000  0.00000000
+ q=  -0.25000000  0.50000000  0.00000000
+ q=  -0.50000000  0.25000000  0.00000000
+ q=   0.50000000 -0.25000000  0.00000000
+  reading force constants from file 444.dynmat14
+  nqs=            8
+ q=   0.25000000 -0.50000000  0.37224664
+ q=  -0.25000000  0.50000000 -0.37224664
+ q=   0.25000000 -0.50000000 -0.37224664
+ q=  -0.25000000  0.50000000  0.37224664
+ q=  -0.50000000  0.25000000  0.37224664
+ q=   0.50000000 -0.25000000 -0.37224664
+ q=  -0.50000000  0.25000000 -0.37224664
+ q=   0.50000000 -0.25000000  0.37224664
+  reading force constants from file 444.dynmat15
+  nqs=            4
+ q=   0.25000000 -0.50000000 -0.74449328
+ q=  -0.25000000  0.50000000  0.74449328
+ q=  -0.50000000  0.25000000 -0.74449328
+ q=   0.50000000 -0.25000000  0.74449328
+  reading force constants from file 444.dynmat16
+  nqs=            2
+ q=   0.25000000 -0.25000000  0.00000000
+ q=  -0.25000000  0.25000000  0.00000000
+  reading force constants from file 444.dynmat17
+  nqs=            4
+ q=   0.25000000 -0.25000000  0.37224664
+ q=   0.25000000 -0.25000000 -0.37224664
+ q=  -0.25000000  0.25000000  0.37224664
+ q=  -0.25000000  0.25000000 -0.37224664
+  reading force constants from file 444.dynmat18
+  nqs=            2
+ q=   0.25000000 -0.25000000 -0.74449328
+ q=  -0.25000000  0.25000000 -0.74449328
+  reading force constants from file 444.dynmat19
+  nqs=            1
+ q=  -0.50000000 -0.50000000  0.00000000
+  reading force constants from file 444.dynmat20
+  nqs=            2
+ q=  -0.50000000 -0.50000000  0.37224664
+ q=  -0.50000000 -0.50000000 -0.37224664
+  reading force constants from file 444.dynmat21
+  nqs=            1
+ q=  -0.50000000 -0.50000000 -0.74449328
+
+      q-space grid ok, #points =   64
+
+      fft-check warning: sum of imaginary terms = 8.749739E-07
+ 
+     Q2R          :     0.05s CPU         0.10s WALL
+
+ 
+   This run was terminated on:  18: 5: 0   5May2018            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

@@ -1,0 +1,11 @@
+Phonon dispersions for SnO2
+&inputph
+   outdir='./'
+   prefix='101010'
+   ldisp=.true. 		!calculates phonons for a grid of q-points specified by nq1, nq2, nq3 - for direct calculation of the entire phonon dispersion
+   nq1=1,nq2=1,nq3=1  
+   fildyn='101010.dynmat',
+   tr2_ph=1.0d-14,
+   amass(1)=118.71
+   amass(2)=15.999
+ /

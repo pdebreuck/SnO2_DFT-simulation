@@ -1,0 +1,101 @@
+
+     Program Q2R v.6.2.2 starts on  5May2018 at  0:34:59 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on     2 processors
+
+     MPI processes distributed on     1 nodes
+     R & G space division:  proc/nbgrp/npool/nimage =       2
+
+     reading grid info from file 333.dynmat0    
+  reading force constants from file 333.dynmat1
+ macroscopic fields = T
+   5.79203   0.00000   0.00000
+   0.00000   5.79203   0.00000
+   0.00000   0.00000   5.42985
+  na=            1
+   4.16234   0.57555   0.00000
+   0.57555   4.16234   0.00000
+   0.00000   0.00000   4.58746
+  na=            2
+   4.16234  -0.57555   0.00000
+  -0.57555   4.16234   0.00000
+   0.00000   0.00000   4.58746
+  na=            3
+  -2.10094   0.85825   0.00000
+   0.85824  -2.10090   0.00000
+   0.00000   0.00000  -2.35608
+  na=            4
+  -2.10090   0.85824   0.00000
+   0.85825  -2.10094   0.00000
+   0.00000   0.00000  -2.35608
+  na=            5
+  -2.10091  -0.85823   0.00000
+  -0.85823  -2.10091   0.00000
+   0.00000   0.00000  -2.35608
+  na=            6
+  -2.10093  -0.85825   0.00000
+  -0.85825  -2.10093   0.00000
+   0.00000   0.00000  -2.35608
+  nqs=            1
+ q=   0.00000000  0.00000000  0.00000000
+  reading force constants from file 333.dynmat2
+  nqs=            2
+ q=   0.00000000  0.00000000  0.49632885
+ q=   0.00000000  0.00000000 -0.49632885
+  reading force constants from file 333.dynmat3
+  nqs=            4
+ q=   0.00000000  0.33333333  0.00000000
+ q=   0.00000000 -0.33333333  0.00000000
+ q=   0.33333333  0.00000000  0.00000000
+ q=  -0.33333333  0.00000000  0.00000000
+  reading force constants from file 333.dynmat4
+  nqs=            8
+ q=   0.00000000  0.33333333  0.49632885
+ q=   0.00000000 -0.33333333 -0.49632885
+ q=   0.00000000  0.33333333 -0.49632885
+ q=   0.00000000 -0.33333333  0.49632885
+ q=   0.33333333  0.00000000  0.49632885
+ q=  -0.33333333  0.00000000 -0.49632885
+ q=   0.33333333  0.00000000 -0.49632885
+ q=  -0.33333333  0.00000000  0.49632885
+  reading force constants from file 333.dynmat5
+  nqs=            2
+ q=   0.33333333  0.33333333  0.00000000
+ q=  -0.33333333 -0.33333333  0.00000000
+  reading force constants from file 333.dynmat6
+  nqs=            4
+ q=   0.33333333  0.33333333  0.49632885
+ q=  -0.33333333 -0.33333333 -0.49632885
+ q=   0.33333333  0.33333333 -0.49632885
+ q=  -0.33333333 -0.33333333  0.49632885
+  reading force constants from file 333.dynmat7
+  nqs=            2
+ q=   0.33333333 -0.33333333  0.00000000
+ q=  -0.33333333  0.33333333  0.00000000
+  reading force constants from file 333.dynmat8
+  nqs=            4
+ q=   0.33333333 -0.33333333  0.49632885
+ q=   0.33333333 -0.33333333 -0.49632885
+ q=  -0.33333333  0.33333333  0.49632885
+ q=  -0.33333333  0.33333333 -0.49632885
+
+      q-space grid ok, #points =   27
+
+      fft-check success (sum of imaginary terms < 10^-12)
+ 
+     Q2R          :  1m20.00s CPU     2m40.75s WALL
+
+ 
+   This run was terminated on:   0:37:40   5May2018            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

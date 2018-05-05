@@ -1,0 +1,41 @@
+&control
+    calculation = 'scf'
+    restart_mode='from_scratch'				 ! = default value
+    prefix='101010'
+    tstress = .true.					 ! calculate stresses
+    tprnfor = .true.					 ! calculate forces
+    pseudo_dir = '../../../Pseudo_potentials'
+    outdir='./'
+ /
+ &system
+    ibrav = 6 						! tetragonal primitive
+    nat   = 6
+    ntyp  = 2
+    celldm(1)=9.137032968
+    celldm(3)=0.671597737
+    ecutwfc = 75					! 20
+   ! ecutrho=80.0 					! default = 4*ecutwfc
+   ! nbnd=8 						! default = insulator: #valence bands, metals :+20%
+   ! occupations='fixed'
+ /
+ &electrons
+   ! mixing_mode = 'plain'  				! = default
+   ! mixing_beta = 0.5
+     conv_thr =  1.0d-20
+ /
+ &ions
+ /
+ &cell
+ /
+ATOMIC_SPECIES
+ Sn 118.71 Sn_PBE.upf
+ O  15.999 O_PBE.upf
+ ATOMIC_POSITIONS (crystal)
+ Sn      -0.000331970  -0.000331970   0.000000000
+ Sn       0.499667480   0.499667480   0.500000000
+ O        0.806369198   0.192961781   0.500000000
+ O        0.192961781   0.806369198   0.500000000
+ O        0.306370463   0.306370463   0.000000000
+ O        0.692963048   0.692963048   0.000000000
+K_POINTS automatic
+  10 10 10 0 0 0
