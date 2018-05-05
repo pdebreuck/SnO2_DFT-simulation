@@ -8,9 +8,9 @@ nbands = 18
 i=0
 kpoints=[]
 energies =[[] for x in range(nbands)]
-files = ["../222.freq","../333.freq"] # ["file1","file2","file3"] etc.
-labels = ["2 x 2 x 2 q grid","3 x 3 x 3 q grid"] #corresponding text labels
-colors = ["-b","r"] # corresponding color => red: "-r" etc.
+files = ["../222.freq","../333.freq","../444.freq"] # ["file1","file2","file3"] etc.
+labels = ["2 x 2 x 2 q grid","3 x 3 x 3 q grid","4 x 4 x 4 q grid"] #corresponding text labels
+colors = ["-b","r","g"] # corresponding color => red: "-r" etc.
 pfile ="points"
 spoints = {} 
 begin = 0

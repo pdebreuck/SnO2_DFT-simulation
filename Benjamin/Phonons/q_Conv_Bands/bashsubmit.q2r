@@ -18,6 +18,6 @@ MPI="mpirun"
 MPIOPT="-np 2"
 QE="/home/ucl/naps/gbrunin/q-e/bin/q2r.x"
 
-${MPI} ${MPIOPT} ${QE} < q2r_333.in > q2r_333.out
+${MPI} ${MPIOPT} ${QE} < q2r_444.in > q2r_444.out
 
 echo "--"

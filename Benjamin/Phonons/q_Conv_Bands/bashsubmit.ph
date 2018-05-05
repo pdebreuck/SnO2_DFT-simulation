@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --ntasks=4
+#SBATCH --ntasks=8
 #SBATCH --cpus-per-task=1
 #SBATCH --job-name=ph
 #SBATCH --mem-per-cpu=4000M
@@ -16,9 +16,9 @@ export OMP_NUM_THREADS=1
 unset SLURM_CPUS_PER_TASK
 
 MPI="mpirun"
-MPIOPT="-np 4"
+MPIOPT="-np 8"
 QE="/home/ucl/naps/gbrunin/q-e/bin/ph.x"
 
-${MPI} ${MPIOPT} ${QE} < ph_333.in > ph_333.out
+${MPI} ${MPIOPT} ${QE} < ph_444.in > ph_444.out
 
 echo "--"

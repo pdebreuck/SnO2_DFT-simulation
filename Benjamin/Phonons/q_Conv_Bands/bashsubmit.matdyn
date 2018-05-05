@@ -18,6 +18,6 @@ MPI="mpirun"
 MPIOPT="-np 2"
 QE="/home/ucl/naps/gbrunin/q-e/bin/matdyn.x"
 
-${MPI} ${MPIOPT} ${QE} < matdyn_333.in > matdyn_333.out
+${MPI} ${MPIOPT} ${QE} < matdyn_444.in > matdyn_444.out
 
 echo "--"
