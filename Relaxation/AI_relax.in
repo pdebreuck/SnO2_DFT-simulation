@@ -5,15 +5,13 @@ ntime  100
 dilatmx 1.05
 ecutsm  0.5
 
-tolmxde 0.5d-10
 tolmxf 0.5d-9
 
 #Definition of the k-point grids
 kptopt 1        
-
 ngkpt  4 4 4 
-
-
+nshiftk 1
+shiftk 0 0 0
 
 #Definition of the unit cell
 acell 9.11 9.11 6.1037         # acell(c) = 0.67*9.11 = 6.1037
@@ -42,6 +40,6 @@ xred
 ecut 37.5 #  = 75 Rydberg
 
 #Definition of the SCF procedure
-nstep 30          
+nstep 100          
 toldfe 0.5d-12     
 diemac 12.0       

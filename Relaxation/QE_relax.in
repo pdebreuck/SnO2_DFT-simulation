@@ -4,7 +4,7 @@
  prefix = 'SnO2'
  pseudo_dir = '../Pseudo_potentials'
  outdir = './'
- etot_conv_thr = 1.0d-10
+! etot_conv_thr = 1.0d-10
  forc_conv_thr = 1.0d-9
 /
 &system
