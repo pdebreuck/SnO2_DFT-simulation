@@ -1,0 +1,197 @@
+
+     Program PHONON v.6.2.2 starts on  8May2018 at  5:25:47 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on    32 processors
+
+     MPI processes distributed on     7 nodes
+     R & G space division:  proc/nbgrp/npool/nimage =      32
+
+     Reading data from directory:
+     ./epw.save/
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation      = PBE ( 1  4  3  4 0 0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+ 
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min          62      62     18                 1404     1404     223
+     Max          63      63     20                 1405     1405     225
+     Sum        2001    2001    593                44945    44945    7155
+ 
+
+     Check: negative/imaginary core charge=   -0.000002    0.000000
+
+
+     Dynamical matrices for ( 3, 3, 3)  uniform grid of q-points
+     (   8 q-points):
+       N         xq(1)         xq(2)         xq(3) 
+       1   0.000000000   0.000000000   0.000000000
+       2   0.000000000   0.000000000   0.496328851
+       3   0.000000000   0.333333333   0.000000000
+       4   0.000000000   0.333333333   0.496328851
+       5   0.333333333   0.333333333   0.000000000
+       6   0.333333333   0.333333333   0.496328851
+       7   0.333333333  -0.333333333   0.000000000
+       8   0.333333333  -0.333333333   0.496328851
+
+     Calculation of q =    0.0000000   0.0000000   0.0000000
+
+     Phonon dispersions for SnO2                                                
+
+     bravais-lattice index     =            6
+     lattice parameter (alat)  =       9.1370  a.u.
+     unit-cell volume          =     512.3005 (a.u.)^3
+     number of atoms/cell      =            6
+     number of atomic types    =            2
+     kinetic-energy cut-off    =      75.0000  Ry
+     charge density cut-off    =     300.0000  Ry
+     convergence threshold     =      1.0E-14
+     beta                      =       0.7000
+     number of iterations used =            4
+     Exchange-correlation      = PBE ( 1  4  3  4 0 0)
+
+
+     celldm(1)=    9.13703  celldm(2)=    1.00000  celldm(3)=    0.67160
+     celldm(4)=    0.00000  celldm(5)=    0.00000  celldm(6)=    0.00000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (  1.0000  0.0000  0.0000 )  
+               a(2) = (  0.0000  1.0000  0.0000 )  
+               a(3) = (  0.0000  0.0000  0.6716 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = (  1.0000  0.0000  0.0000 )  
+               b(2) = (  0.0000  1.0000  0.0000 )  
+               b(3) = (  0.0000  0.0000  1.4890 )  
+
+
+     Atoms inside the unit cell: 
+
+     Cartesian axes
+
+     site n.  atom      mass           positions (alat units)
+        1     Sn 118.7100   tau(    1) = (   -0.00033   -0.00033    0.00000  )
+        2     Sn 118.7100   tau(    2) = (    0.49967    0.49967    0.33580  )
+        3     O   15.9990   tau(    3) = (    0.80637    0.19296    0.33580  )
+        4     O   15.9990   tau(    4) = (    0.19296    0.80637    0.33580  )
+        5     O   15.9990   tau(    5) = (    0.30637    0.30637    0.00000  )
+        6     O   15.9990   tau(    6) = (    0.69296    0.69296    0.00000  )
+
+     Computing dynamical matrix for 
+                    q = (   0.0000000   0.0000000   0.0000000 )
+ 
+      5 Sym.Ops. (with q -> -q+G )
+
+
+     G cutoff =  634.4127  (   1405 G-vectors)     FFT grid: ( 54, 54, 36)
+     number of k points=   301
+
+     PseudoPot. # 1 for Sn read from file:
+     ../../Pseudo_potentials/Sn_PBE.upf
+     MD5 check sum: 78e6386ae56e929f0568ae8bf606a80c
+     Pseudo is Norm-conserving + core correction, Zval = 14.0
+     Generated using ONCVPSP code by D. R. Hamann
+     Using radial grid of 1628 points,  6 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+
+     PseudoPot. # 2 for O  read from file:
+     ../../Pseudo_potentials/O_PBE.upf
+     MD5 check sum: 3e3f909f7470e8921608ab6b1f57bbae
+     Pseudo is Norm-conserving + core correction, Zval =  6.0
+     Generated using ONCVPSP code by D. R. Hamann
+     Using radial grid of  936 points,  5 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+
+     Mode symmetry, C_2v (mm2)  point group:
+
+
+     Electric field:
+     Dielectric constant
+     Born effective charges in two ways 
+
+
+     Atomic displacements:
+     There are  18 irreducible representations
+
+     Representation     1      1 modes -A_1  D_1  S_1  To be done
+
+     Representation     2      1 modes -A_1  D_1  S_1  To be done
+
+     Representation     3      1 modes -A_1  D_1  S_1  To be done
+
+     Representation     4      1 modes -A_1  D_1  S_1  To be done
+
+     Representation     5      1 modes -A_1  D_1  S_1  To be done
+
+     Representation     6      1 modes -A_1  D_1  S_1  To be done
+
+     Representation     7      1 modes -A_2  D_2  S_2  To be done
+
+     Representation     8      1 modes -B_1  D_3  S_3  To be done
+
+     Representation     9      1 modes -B_1  D_3  S_3  To be done
+
+     Representation    10      1 modes -B_1  D_3  S_3  To be done
+
+     Representation    11      1 modes -B_1  D_3  S_3  To be done
+
+     Representation    12      1 modes -B_1  D_3  S_3  To be done
+
+     Representation    13      1 modes -B_1  D_3  S_3  To be done
+
+     Representation    14      1 modes -B_2  D_4  S_4  To be done
+
+     Representation    15      1 modes -B_2  D_4  S_4  To be done
+
+     Representation    16      1 modes -B_2  D_4  S_4  To be done
+
+     Representation    17      1 modes -B_2  D_4  S_4  To be done
+
+     Representation    18      1 modes -B_2  D_4  S_4  To be done
+
+
+
+     Alpha used in Ewald sum =   2.7000
+     PHONON       :  3m 3.36s CPU     3m44.00s WALL
+
+
+     Electric Fields Calculation
+
+      iter #   1 total cpu time :  5227.1 secs   av.it.:   7.6
+      thresh= 1.000E-02 alpha_mix =  0.700 |ddv_scf|^2 =  1.564E-08
+
+      iter #   2 total cpu time :  8546.2 secs   av.it.:  15.2
+      thresh= 1.251E-05 alpha_mix =  0.700 |ddv_scf|^2 =  2.437E-08
+
+      iter #   3 total cpu time : 11099.7 secs   av.it.:  13.4
+      thresh= 1.561E-05 alpha_mix =  0.700 |ddv_scf|^2 =  1.299E-09
+
+      iter #   4 total cpu time : 13880.4 secs   av.it.:  14.5
+      thresh= 3.604E-06 alpha_mix =  0.700 |ddv_scf|^2 =  5.529E-11
+
+      iter #   5 total cpu time : 16827.0 secs   av.it.:  14.7
+      thresh= 7.436E-07 alpha_mix =  0.700 |ddv_scf|^2 =  5.514E-12
+
+      iter #   6 total cpu time : 19915.6 secs   av.it.:  14.3
+      thresh= 2.348E-07 alpha_mix =  0.700 |ddv_scf|^2 =  5.166E-14

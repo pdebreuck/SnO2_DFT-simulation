@@ -1,0 +1,6 @@
+&input
+ fildyn='epw.dynmat',
+ zasr='simple'
+ flfrc='epw.fc'
+/
+
