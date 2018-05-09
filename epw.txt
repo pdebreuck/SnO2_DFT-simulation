@@ -1,0 +1,18 @@
+script python
+=>save
+2/ dossier epw a coté de phonon
+3/ dans epw SNO2.in scf.in scf nscf
+4/ SCF: 
+smearing = 'np' (petit => augmenter point k (666 ok) + degauss, tot_charge = 0.01 
+5/ nscf: shifter k (uniquement positif) 1/6 ... conv_tresh = 10d-12
+nband = 28
+6/ EPW: iverbosiry: 0 Tnk 3 Tnvnue (par phonon)/fishstick: borne enrgie outour fermi.
+degausk = 0.1(en peu plus haut q'avant)
+
+filkf: un point k gamma
+nqf1: converngence la dessus
+point q au bout (x cartesian puis points)
+nbnd = 13
+numiter 3000
+wanier (frozen: point ou il doit passer)
+linewidth
