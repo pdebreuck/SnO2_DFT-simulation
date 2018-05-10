@@ -1,0 +1,7 @@
+AI_relax.in
+AI_relax.out
+relax_xi
+relax_xo
+relax_x
+../Pseudo_potentials/Sn_PBE.psp8
+../Pseudo_potentials/O_PBE.psp8

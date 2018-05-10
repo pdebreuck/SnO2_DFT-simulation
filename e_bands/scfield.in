@@ -14,7 +14,7 @@
  nat = 6
  ntyp = 2
  ecutwfc = 75
- nbnd = 28
+ nbnd = 30
 /
 &electrons
  conv_thr  = 1.0d-18

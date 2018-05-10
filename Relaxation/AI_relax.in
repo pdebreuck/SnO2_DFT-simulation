@@ -5,7 +5,7 @@ ntime  100
 dilatmx 1.05
 ecutsm  0.5
 
-tolmxf 0.5d-9
+tolmxf 1.0d-9
 
 #Definition of the k-point grids
 kptopt 1        
