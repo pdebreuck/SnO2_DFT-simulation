@@ -3,7 +3,7 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --job-name=scf
 #SBATCH --mem-per-cpu=4000M
-#SBATCH --time=00:40:00
+#SBATCH --time=00:30:00
 #SBATCH --mail-user=
 #SBATCH --mail-type=ALL
 #SBATCH --partition=Def
@@ -21,6 +21,16 @@ QE="/home/ucl/naps/gbrunin/q-e/bin/pw.x"
 
 ${MPI} ${MPIOPT} ${QE} -inp scfield.in > scfield.out
 ${MPI} ${MPIOPT} ${QE} -inp el-bands.in > el-bands.out
+
+${MPI} ${MPIOPT} ${QE} -inp scfield80.in > scfield80.out
+${MPI} ${MPIOPT} ${QE} -inp el-bands.in > el-bands80.out
+${MPI} ${MPIOPT} ${QE} -inp scfield85.in > scfield85.out
+${MPI} ${MPIOPT} ${QE} -inp el-bands.in > el-bands85.out
+
+${MPI} ${MPIOPT} ${QE} -inp scfieldk6.in > scfieldk6.out
+${MPI} ${MPIOPT} ${QE} -inp el-bands.in > el-bandsk6.out
+${MPI} ${MPIOPT} ${QE} -inp scfieldk8.in > scfieldk8.out
+${MPI} ${MPIOPT} ${QE} -inp el-bands.in > el-bandsk8.out
 
 
 echo "--"
