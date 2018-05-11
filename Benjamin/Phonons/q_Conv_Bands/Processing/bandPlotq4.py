@@ -8,9 +8,9 @@ nbands = 18
 i=0
 kpoints=[]
 energies =[[] for x in range(nbands)]
-files = ["../222.freq","../333.freq","../444.freq"] # ["file1","file2","file3"] etc.
-labels = ["2 x 2 x 2 q grid","3 x 3 x 3 q grid","4 x 4 x 4 q grid"] #corresponding text labels
-colors = ["-b","r","g"] # corresponding color => red: "-r" etc.
+files = ["../444.freq"] # ["file1","file2","file3"] etc.
+labels = ["4 x 4 x 4 q grid"] #corresponding text labels
+colors = ["-b"] # corresponding color => red: "-r" etc.
 pfile ="points"
 spoints = {} 
 begin = 0
@@ -123,7 +123,7 @@ for f in files:
 
 plt.xlabel('Reciprocal space')
 plt.ylabel('Frequency ($cm{-1}$)')
-plt.ylim([0,1050])
+plt.ylim([0,820])
 plt.title('Phonon band structure')
 plt.xlim([0,kpoints[-1]])
 plt.xticks(ticks,tickslabel)
@@ -131,7 +131,7 @@ plt.legend()
 
 for xc in ticks:
 	plt.axvline(x=xc,linestyle='--',color='k')
-plt.savefig('qconv-pbands.pdf')
+plt.savefig('pbands_q444.pdf')
 
 
 plt.show()
