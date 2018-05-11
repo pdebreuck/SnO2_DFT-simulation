@@ -28,22 +28,23 @@ for f in filenames:
 			break
 
 energies =  [x*-0.5 for x in energies]	#in Hartree
+ecut = [x*0.5 for x in ecut]
 on = [energies[-1] for x in ecut]
 upper = [energies[-1]+(0.005*6) for x in ecut]
 lower = [energies[-1]-(0.005*6) for x in ecut]
 
 
 plt.figure()
-plt.plot(ecut,energies,'o-',ecut,on,'--')
-plt.xlabel('Kinetic energy cutoff [Ry]')
-plt.ylabel('Total energy [Ha]')
-plt.title('etot - ecut convergence')
-plt.axes([0.45,0.5,0.4,0.3])
-plt.plot(ecut,energies,'o-',ecut,lower,'--',ecut,upper,'--')
-plt.xlim([40,75])
-plt.ylim([-224,-223.5])
+plt.plot(ecut,energies,'o-',ecut,on,':')
+plt.xlabel('Kinetic energy cutoff (Ha)')
+plt.ylabel('Total energy (Ha)')
+#plt.title('etot - ecut convergence')
+plt.axes([0.45,0.4,0.4,0.35])
+plt.plot(ecut,energies,'o-',ecut,lower,'--r',ecut,upper,'--r')
+plt.xlim([20,40])
+plt.ylim([-223.9,-223.6])
 plt.title('zoom')
-plt.savefig('etot-ecut.png')
+plt.savefig('etot-ecut.pdf',format='pdf')
 
 plt.show()
 

@@ -120,10 +120,15 @@ for f in files:
 			plt.plot(kpoints,x,colors[subplot])
 
 
-
+exp = [19.13,23.45,3.63,14.27,14.30,7.32,8.78,18.53,21.13,8.27,10.97,23.08]
+exp = [float(y)/0.02998 for y in exp] #THz
+a = [g[0] for x in exp]
+b = [g[1] for x in exp]
+plt.plot(a,exp,'ro',label='experimental')
+plt.plot(b,exp,'ro')
 plt.xlabel('Reciprocal space')
 plt.ylabel('Frequency ($cm{-1}$)')
-plt.ylim([0,1050])
+plt.ylim([0,295])
 plt.title('Phonon band structure')
 plt.xlim([0,kpoints[-1]])
 plt.xticks(ticks,tickslabel)
@@ -131,7 +136,7 @@ plt.legend()
 
 for xc in ticks:
 	plt.axvline(x=xc,linestyle='--',color='k')
-plt.savefig('qconv-pbands.pdf')
+plt.savefig('pbands.png')
 
 
 plt.show()

@@ -78,17 +78,18 @@ for f in files:
 		kp = re.findall("\d+\.\d+",line)
 		kp = tuple([float(x) for x in kp])
 		if kp in spoints:
+				delt.append(len(kpoints))
 				print spoints[kp]
 				if tickscounter==1 and spoints[kp]=='Z':
 					ticks.append(i)
 					tickslabel.append('Z|X')
 					tickdubble= 1
-					delt.append(len(kpoints))
+					
 				elif tickscounter==1 and spoints[kp]=='R':
 					ticks.append(i)
 					tickslabel.append('R|M')
 					tickdubble= 1
-					delt.append(len(kpoints))
+					
 				elif tickscounter==1 and spoints[kp]=='A':
 					ticks.append(i)
 					tickslabel.append('A')
@@ -128,7 +129,7 @@ plt.legend()
 
 for xc in ticks:
 	plt.axvline(x=xc,linestyle='--',color='k')
-plt.savefig('pbands.png')
+plt.savefig('pbands.pdf',format='pdf')
 
 
 plt.show()

@@ -36,11 +36,12 @@ mean = [mean for x in kpointsg]
 print energies
 print kpoints
 print kpointsg
-plt.plot(kpointsg,energies,'o-',kpointsg,lower,'--',kpointsg,upper,'--',kpointsg,mean,':')
+plt.plot(kpointsg,energies,'o-',kpointsg,lower,'--r',kpointsg,upper,'--r',kpointsg,mean,':')
 #plt.ylim([399, 399.3])
+plt.xlim([0, 28])
 plt.xlabel('nk X nk X nk grid')
 plt.ylabel('Total energy (Ha)')
-plt.title('Energy - kpoints convergence')
-plt.savefig('etot-k.png')
+#plt.title('Energy - kpoints convergence')
+plt.savefig('etot-k.pdf',format='pdf')
 plt.show()
 

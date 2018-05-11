@@ -2,6 +2,8 @@
 import glob
 import re
 import matplotlib.pyplot as plt
+import matplotlib
+matplotlib.rcParams.update({'font.size':18})
 
 filenames = sorted(glob.glob('../acell-ecut/Conv_acell-e*.out'))
 print filenames
@@ -30,18 +32,18 @@ for f in filenames:
 
 upper = [atpos[-1]*(1+0.002) for x in atpos]
 lower = [atpos[-1]*(1-0.002) for x in atpos]
-
+ecut = [x*0.5 for  x in ecut]
 plt.figure()
-plt.plot(ecut,atpos,'o-',ecut,upper,'--',ecut,lower,'--')
-plt.xlabel('Kinetic energy cutoff')
-plt.ylabel('Reduced atomic position [-]')
-plt.title('Atomic position - ecut convergence')
+plt.plot(ecut,atpos,'o-',ecut,upper,'--r',ecut,lower,'--r')
+plt.xlabel('Kinetic energy cutoff (Ha)')
+plt.ylabel('Reduced atomic position (-)')
+#plt.title('Atomic position - ecut convergence')
 plt.axes([0.45,0.45,0.4,0.3])
-plt.plot(ecut,atpos,'o-',ecut,lower,'--',ecut,upper,'--')
-plt.xlim([35,100])
+plt.plot(ecut,atpos,'o-',ecut,lower,'--r',ecut,upper,'--r')
+plt.xlim([15,50])
 plt.ylim([0.495,0.505])
 plt.title('zoom')
-plt.savefig('atpos-ecut.png')
+plt.savefig('atpos-ecut.pdf',format='pdf')
 
 
 plt.show()
