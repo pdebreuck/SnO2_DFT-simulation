@@ -133,7 +133,7 @@ plt.xlim([0,kpoints[-1]])
 plt.xticks(ticks,tickslabel)
 for xc in ticks:
 	plt.axvline(x=xc,linestyle='--',color='k')
-plt.savefig('ebands.png')
+plt.savefig('ebands.pdf',format='pdf')
 
 
 plt.show()

@@ -2,6 +2,8 @@
 import glob
 import re
 import matplotlib.pyplot as plt
+import matplotlib
+matplotlib.rcParams.update({'font.size':18})
 
 filenames = sorted(glob.glob('../acell-k/Conv_acell-k*.out'))
 print filenames
@@ -52,18 +54,18 @@ print nkpoints
 print str(max(acell[-4:])-min(acell[-4:]))
 
 plt.figure()
-plt.plot(nkpoints,acell,'o-',nkpoints,alower,'--',nkpoints,aupper,'--')
+plt.plot(nkpoints,acell,'o-',nkpoints,alower,'--r',nkpoints,aupper,'--r')
 #plt.ylim([7,7.2])
 plt.xlabel('nk X nk X nk grid')
-plt.ylabel('Lattice parameter a')
-plt.title('acell - kpoints convergence')
-plt.savefig('acell-kpoints.png')
+plt.ylabel('Lattice parameter a (Bohr)')
+#plt.title('acell - kpoints convergence')
+plt.savefig('acell-kpoints.pdf',format='pdf')
 
 plt.figure()
-plt.plot(nkpoints,ccell,'o-',nkpoints,clower,'--',nkpoints,cupper,'--')
+plt.plot(nkpoints,ccell,'o-',nkpoints,clower,'--r',nkpoints,cupper,'--r')
 #plt.ylim([4.85,5.05])
 plt.xlabel('nk X nk X nk grid')
-plt.ylabel('Lattice parameter c')
-plt.title('ccell - kpoints convergence')
-plt.savefig('ccell-kpoints.png')
+plt.ylabel('Lattice parameter c (Bohr)')
+#plt.title('ccell - kpoints convergence')
+plt.savefig('ccell-kpoints.pdf',format='pdf')
 plt.show()

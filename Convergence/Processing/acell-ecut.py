@@ -2,6 +2,8 @@
 import glob
 import re
 import matplotlib.pyplot as plt
+import matplotlib
+matplotlib.rcParams.update({'font.size':18})
 
 filenames = sorted(glob.glob('../acell-ecut/Conv_acell-e*.out'))
 print filenames
@@ -37,6 +39,7 @@ print ccell
 print ecut
 acell =[x*9.11 for x in acell]
 ccell =[x*9.11 for x in ccell]
+ecut = [x*0.5 for x in ecut]
 
 ona = [acell[-1] for x in acell]
 onc = [ccell[-1] for x in acell]
@@ -46,28 +49,28 @@ cupper = [ccell[-1]*(1+0.002) for x in ccell]
 clower = [ccell[-1]*(1-0.002) for x in ccell]
 
 plt.figure()
-plt.plot(ecut,acell,'o-',ecut,ona,'--')
-plt.xlabel('Kinetic energy cutoff')
-plt.ylabel('Lattice parameter a')
-plt.title('acell - ecut convergence')
+plt.plot(ecut,acell,'o-',ecut,ona,':')
+plt.xlabel('Kinetic energy cutoff (Ha)')
+plt.ylabel('Lattice parameter a (Bohr)')
+#plt.title('acell - ecut convergence')
 plt.axes([0.45,0.2,0.4,0.3])
-plt.plot(ecut,acell,'o-',ecut,alower,'--',ecut,aupper,'--')
-plt.xlim([60,100])
+plt.plot(ecut,acell,'o-',ecut,alower,'--r',ecut,aupper,'--r')
+plt.xlim([30,50])
 plt.ylim([9.05,9.2])
 plt.title('zoom')
-plt.savefig('acell-ecut.png')
+plt.savefig('acell-ecut.pdf',format='pdf')
 
 plt.figure()
-plt.plot(ecut,ccell,'o-',ecut,onc,'--')
-plt.xlabel('Kinetic energy cutoff')
-plt.ylabel('Lattice parameter c')
-plt.title('ccell - ecut convergence')
+plt.plot(ecut,ccell,'o-',ecut,onc,':')
+plt.xlabel('Kinetic energy cutoff (Ha)')
+plt.ylabel('Lattice parameter c (Bohr)')
+#plt.title('ccell - ecut convergence')
 plt.axes([0.45,0.2,0.4,0.3])
-plt.plot(ecut,ccell,'o-',ecut,clower,'--',ecut,cupper,'--')
-plt.xlim([60,100])
+plt.plot(ecut,ccell,'o-',ecut,clower,'--r',ecut,cupper,'--r')
+plt.xlim([30,50])
 plt.ylim([6.05,6.2])
 plt.title('zoom')
-plt.savefig('ccell-ecut.png')
+plt.savefig('ccell-ecut.pdf',format='pdf')
 
 plt.show()
 
