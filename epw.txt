@@ -16,3 +16,48 @@ nbnd = 13
 numiter 3000
 wanier (frozen: point ou il doit passer)
 linewidth
+
+-----
+
+Script crée dossier save et copie colle dossiers en les renommant pour être utilisés par EPW
+0/ Phonon EPW
+1/ Lancer script Python:  Python pp.py
+2/ Créer dossier PhononEPW (scf.in, ph.in) et EPW (+epw.in, scf.in, nscf.in)
+	- scf = même que phononEPW + occupation ‘smearing’/smearing = ‘mp’ = type de smearing, degauss (largeur de fermi-dirac) =1meV =0.001 petit plus précis /tot_charge =0.01
+		nband = 28 au moins pour inclure bande de conduction
+	- nscf = même que scf
+		Pour que k soit positifs (dans EPW) - shift zone de brilloin 
+		Spécifier 6*6*6 = 216, specifier tous les points k 0 1/6 2/6
+		conv_thr = 1.0d-12
+		nband = 28 au moins pour inclure bande de conduction
+3/ input EPW
+	dvscf_dir ../ph/save
+	iverbosity = 0 -> tau_nk
+			 = 3 ->tau_nk\mu = donne en fonction des modes de phonons
+	elecselfen = .true. -> calcule sigma pour tau
+	phononselfen = .false.
+	a2f = 
+	parallel k = true (q false) 
+	fsthick =  1eV 😊 intervalle raisonnable de scattering considéré)
+	eptemp = 300K
+	degaussw = 0.02 (un peu plus) que pour scf (calcul moins précis mais plus smooth (?)
+	fermi_energy = (voir output nscf) 
+
+	nk = 6
+	nq = 3
+	filukk = ‘’		(fichier séparé1 seul point k) 
+
+	nqf1 = 3 puis convergence là-dessus 12*12*12 24 36 (points sur lesquels on prend l’interpolation) 
+	à la fin 
+	wannierize true 
+	nombre de bandes wannierisees (13)
+	nombre skipper
+	niter pour minimiser extension spatiale wannier
+	dis-win_min = 0.8 (display bandes 
+	dis_win_
+	dis_froz = window sur laquelle wannier  passe par points calculés 
+	proj = fonctions initiales données pour wannier, typiquement orbitales moléculaires hybridées
+
+	8 cartesian 
+	Liste de points q donnée par phonon
+	line width
