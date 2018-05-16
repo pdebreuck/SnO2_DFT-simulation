@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --ntasks=32
+#SBATCH --ntasks=16
 #SBATCH --cpus-per-task=1
 #SBATCH --job-name=ph
 #SBATCH --mem-per-cpu=4000M
@@ -16,7 +16,7 @@ export OMP_NUM_THREADS=1
 unset SLURM_CPUS_PER_TASK
 
 MPI="mpirun"
-MPIOPT="-np 32"
+MPIOPT="-np 16"
 QE="/home/ucl/naps/gbrunin/q-e/bin/ph.x"
 
 ${MPI} ${MPIOPT} ${QE} < ph.in > ph.out
