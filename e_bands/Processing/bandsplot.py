@@ -127,7 +127,7 @@ for x in energies:
 	plt.plot(kpoints,x,'-b',)
 plt.xlabel('Reciprocal space')
 plt.ylabel('E-Ef (eV)')
-plt.ylim([-5,8])
+plt.ylim([-5,6])
 plt.title('Electronic band structure')
 plt.xlim([0,kpoints[-1]])
 plt.xticks(ticks,tickslabel)

@@ -1,0 +1,71 @@
+&inputepw
+prefix      = 'SnO2'
+amass(1)=118.71
+amass(2)=15.999
+outdir      = './'
+dvscf_dir   = '../Phonon/save'
+
+elph        = .true.
+kmaps       = .false.
+epbwrite    = .true.
+epbread     = .false.
+epwwrite    = .true.
+epwread     = .false.
+
+
+lifc        = .false.
+!asr_typ     = 'crystal'
+
+  wannierize  = .true.
+  nbndsub     = 13
+  nbndskip    = 14
+  num_iter    = 5000
+  iprint      = 2
+  dis_win_min = 0.8
+  dis_win_max = 18
+  dis_froz_min = 0.9
+  dis_froz_max = 12
+  wdata(1)    = 'dis_num_iter = 500'
+  wdata(2)    = 'num_print_cycles = 10'
+  wdata(3)    = 'dis_mix_ratio = 1.0'
+  proj(1)     = 'Sn:s'
+  proj(2)     = 'O:s'
+  proj(3)     = 'Sn:sp3d2-1;sp3d2-2;sp3d2-3'
+  proj(4)     = 'f=0,0,0:s' 
+
+
+elecselfen  = .true.
+phononselfen = .false.
+a2f         = .false.
+parallel_k  = .true.
+parallel_q  = .false.
+fsthick     = 1.0 ! eV
+eptemp      = 300 ! K
+degaussw    = 0.02 ! eV
+fermi_energy = ! a calculer 
+
+band_plot   = .true.
+filkf       = './path.txt'
+filqf       = './path.txt'
+
+!nqf1 = 3
+!nqf2 = 3
+!nqf3 = 3
+
+nk1         = 6
+nk2         = 6
+nk3         = 6
+nq1         = 3
+nq2         = 3
+nq3         = 3
+
+/
+8 cartesian
+0.000000000   0.000000000   0.000000000
+0.000000000   0.000000000   0.496328851
+0.000000000   0.333333333   0.000000000
+0.000000000   0.333333333   0.496328851
+0.333333333   0.333333333   0.000000000
+0.333333333   0.333333333   0.496328851
+0.333333333  -0.333333333   0.000000000
+0.333333333  -0.333333333   0.496328851
