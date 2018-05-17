@@ -1,7 +1,7 @@
 &control
     calculation = 'scf'
     restart_mode='from_scratch'				 ! = default value
-    prefix='SnO2-epw'
+    prefix='epw'
     tstress = .true.					 ! calculate stresses
     tprnfor = .true.					 ! calculate forces
     pseudo_dir = '../../Pseudo_potentials'
@@ -16,11 +16,7 @@
     ecutwfc = 75					! 20
    ! ecutrho=80.0 					! default = 4*ecutwfc
    ! nbnd=8 						! default = insulator: #valence bands, metals :+20%
-   occupations='smearing'
-  smearing = 'mp'
-  degauss = 0.01
-  tot_charge = 0.01
-  
+   ! occupations='fixed'
  /
  &electrons
    ! mixing_mode = 'plain'  				! = default
@@ -42,4 +38,4 @@ ATOMIC_SPECIES
  O        0.306370463   0.306370463   0.000000000
  O        0.692963048   0.692963048   0.000000000
 K_POINTS automatic
- 6 6 6 0 0 0
+  6 6 6 0 0 0

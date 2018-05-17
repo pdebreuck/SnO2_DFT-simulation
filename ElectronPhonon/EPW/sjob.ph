@@ -3,7 +3,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --job-name=ph
 #SBATCH --mem-per-cpu=4000M
-#SBATCH --time=96:00:00
+#SBATCH --time=40:00:00
 
 #SBATCH --mail-user=
 #SBATCH --mail-type=ALL
