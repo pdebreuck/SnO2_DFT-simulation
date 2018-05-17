@@ -21,6 +21,6 @@ MPIOPT2="-np 32"
 QEE="/home/ucl/naps/gbrunin/q-e/bin/pw.x"
 QEP="/home/ucl/naps/gbrunin/q-e/bin/ph.x"
 
-${MPI} ${MPIOPT1} ${QEE} < scf.in > scf.out
+${MPI} ${MPIOPT1} ${QEE} < nscf.in > nscf.out
 
 echo "--"

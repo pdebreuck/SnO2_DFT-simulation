@@ -1,0 +1,2 @@
+/usr/bin/id: cannot find name for group ID 10000
+slurmstepd: error: *** JOB 5845112 ON mb-opt115 CANCELLED AT 2018-05-16T22:12:59 DUE TO TIME LIMIT ***

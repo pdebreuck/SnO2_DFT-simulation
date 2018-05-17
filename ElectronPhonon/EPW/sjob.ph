@@ -1,9 +1,9 @@
 #!/bin/bash
-#SBATCH --ntasks=4
+#SBATCH --ntasks=32
 #SBATCH --cpus-per-task=1
-#SBATCH --job-name=EPW-scf
+#SBATCH --job-name=ph
 #SBATCH --mem-per-cpu=4000M
-#SBATCH --time=1:00:00
+#SBATCH --time=40:00:00
 
 #SBATCH --mail-user=
 #SBATCH --mail-type=ALL
@@ -16,11 +16,9 @@ export OMP_NUM_THREADS=1
 unset SLURM_CPUS_PER_TASK
 
 MPI="mpirun"
-MPIOPT1="-np 4"
-MPIOPT2="-np 32"
-QEE="/home/ucl/naps/gbrunin/q-e/bin/pw.x"
-QEP="/home/ucl/naps/gbrunin/q-e/bin/ph.x"
+MPIOPT="-np 32"
+QE="/home/ucl/naps/gbrunin/q-e/bin/ph.x"
 
-${MPI} ${MPIOPT1} ${QEE} < scf.in > scf.out
+${MPI} ${MPIOPT} ${QE} < ph.in > ph.out
 
 echo "--"
