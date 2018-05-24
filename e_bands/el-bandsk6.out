@@ -1,5 +1,5 @@
 
-     Program PWSCF v.6.2.2 starts on 11May2018 at 13:21:26 
+     Program PWSCF v.6.2.2 starts on 23May2018 at 16:18:51 
 
      This program is part of the open-source Quantum ESPRESSO suite
      for quantum simulation of materials; please cite
@@ -803,860 +803,860 @@ B_2    1.00 -1.00 -1.00  1.00
      Davidson diagonalization with overlap
 
      Computing kpt #:     1
-     total cpu time spent up to now is        5.5 secs
+     total cpu time spent up to now is        4.3 secs
 
      Computing kpt #:     2
-     total cpu time spent up to now is        9.0 secs
+     total cpu time spent up to now is        7.1 secs
 
      Computing kpt #:     3
-     total cpu time spent up to now is       12.5 secs
+     total cpu time spent up to now is        9.9 secs
 
      Computing kpt #:     4
-     total cpu time spent up to now is       16.0 secs
+     total cpu time spent up to now is       12.7 secs
 
      Computing kpt #:     5
-     total cpu time spent up to now is       19.7 secs
+     total cpu time spent up to now is       15.4 secs
 
      Computing kpt #:     6
-     total cpu time spent up to now is       23.2 secs
+     total cpu time spent up to now is       17.7 secs
 
      Computing kpt #:     7
-     total cpu time spent up to now is       26.8 secs
+     total cpu time spent up to now is       20.4 secs
 
      Computing kpt #:     8
-     total cpu time spent up to now is       30.5 secs
+     total cpu time spent up to now is       22.5 secs
 
      Computing kpt #:     9
-     total cpu time spent up to now is       33.4 secs
+     total cpu time spent up to now is       25.2 secs
 
      Computing kpt #:    10
-     total cpu time spent up to now is       36.1 secs
+     total cpu time spent up to now is       27.8 secs
 
      Computing kpt #:    11
-     total cpu time spent up to now is       39.6 secs
+     total cpu time spent up to now is       30.2 secs
 
      Computing kpt #:    12
-     total cpu time spent up to now is       42.3 secs
+     total cpu time spent up to now is       32.6 secs
 
      Computing kpt #:    13
-     total cpu time spent up to now is       45.0 secs
+     total cpu time spent up to now is       34.6 secs
 
      Computing kpt #:    14
-     total cpu time spent up to now is       47.7 secs
+     total cpu time spent up to now is       36.8 secs
 
      Computing kpt #:    15
-     total cpu time spent up to now is       50.5 secs
+     total cpu time spent up to now is       38.8 secs
 
      Computing kpt #:    16
-     total cpu time spent up to now is       53.3 secs
+     total cpu time spent up to now is       41.0 secs
 
      Computing kpt #:    17
-     total cpu time spent up to now is       56.1 secs
+     total cpu time spent up to now is       43.0 secs
 
      Computing kpt #:    18
-     total cpu time spent up to now is       58.8 secs
+     total cpu time spent up to now is       45.1 secs
 
      Computing kpt #:    19
-     total cpu time spent up to now is       61.6 secs
+     total cpu time spent up to now is       47.3 secs
 
      Computing kpt #:    20
-     total cpu time spent up to now is       64.2 secs
+     total cpu time spent up to now is       49.5 secs
 
      Computing kpt #:    21
-     total cpu time spent up to now is       67.0 secs
+     total cpu time spent up to now is       51.6 secs
 
      Computing kpt #:    22
-     total cpu time spent up to now is       69.7 secs
+     total cpu time spent up to now is       53.8 secs
 
      Computing kpt #:    23
-     total cpu time spent up to now is       72.6 secs
+     total cpu time spent up to now is       56.1 secs
 
      Computing kpt #:    24
-     total cpu time spent up to now is       75.4 secs
+     total cpu time spent up to now is       58.2 secs
 
      Computing kpt #:    25
-     total cpu time spent up to now is       78.1 secs
+     total cpu time spent up to now is       60.4 secs
 
      Computing kpt #:    26
-     total cpu time spent up to now is       81.0 secs
+     total cpu time spent up to now is       62.5 secs
 
      Computing kpt #:    27
-     total cpu time spent up to now is       83.8 secs
+     total cpu time spent up to now is       64.7 secs
 
      Computing kpt #:    28
-     total cpu time spent up to now is       86.6 secs
+     total cpu time spent up to now is       66.8 secs
 
      Computing kpt #:    29
-     total cpu time spent up to now is       89.4 secs
+     total cpu time spent up to now is       68.9 secs
 
      Computing kpt #:    30
-     total cpu time spent up to now is       92.2 secs
+     total cpu time spent up to now is       70.9 secs
 
      Computing kpt #:    31
-     total cpu time spent up to now is       94.9 secs
+     total cpu time spent up to now is       73.0 secs
 
      Computing kpt #:    32
-     total cpu time spent up to now is       97.6 secs
+     total cpu time spent up to now is       75.0 secs
 
      Computing kpt #:    33
-     total cpu time spent up to now is      100.3 secs
+     total cpu time spent up to now is       77.2 secs
 
      Computing kpt #:    34
-     total cpu time spent up to now is      103.1 secs
+     total cpu time spent up to now is       79.3 secs
 
      Computing kpt #:    35
-     total cpu time spent up to now is      105.8 secs
+     total cpu time spent up to now is       81.3 secs
 
      Computing kpt #:    36
-     total cpu time spent up to now is      108.5 secs
+     total cpu time spent up to now is       83.4 secs
 
      Computing kpt #:    37
-     total cpu time spent up to now is      111.2 secs
+     total cpu time spent up to now is       85.5 secs
 
      Computing kpt #:    38
-     total cpu time spent up to now is      113.9 secs
+     total cpu time spent up to now is       87.5 secs
 
      Computing kpt #:    39
-     total cpu time spent up to now is      116.6 secs
+     total cpu time spent up to now is       89.4 secs
 
      Computing kpt #:    40
-     total cpu time spent up to now is      119.3 secs
+     total cpu time spent up to now is       91.4 secs
 
      Computing kpt #:    41
-     total cpu time spent up to now is      122.6 secs
+     total cpu time spent up to now is       93.5 secs
 
      Computing kpt #:    42
-     total cpu time spent up to now is      125.2 secs
+     total cpu time spent up to now is       95.5 secs
 
      Computing kpt #:    43
-     total cpu time spent up to now is      128.0 secs
+     total cpu time spent up to now is       97.7 secs
 
      Computing kpt #:    44
-     total cpu time spent up to now is      130.8 secs
+     total cpu time spent up to now is       99.9 secs
 
      Computing kpt #:    45
-     total cpu time spent up to now is      133.5 secs
+     total cpu time spent up to now is      102.1 secs
 
      Computing kpt #:    46
-     total cpu time spent up to now is      136.2 secs
+     total cpu time spent up to now is      104.2 secs
 
      Computing kpt #:    47
-     total cpu time spent up to now is      139.0 secs
+     total cpu time spent up to now is      106.4 secs
 
      Computing kpt #:    48
-     total cpu time spent up to now is      141.7 secs
+     total cpu time spent up to now is      108.6 secs
 
      Computing kpt #:    49
-     total cpu time spent up to now is      144.4 secs
+     total cpu time spent up to now is      110.8 secs
 
      Computing kpt #:    50
-     total cpu time spent up to now is      147.2 secs
+     total cpu time spent up to now is      113.1 secs
 
      Computing kpt #:    51
-     total cpu time spent up to now is      150.0 secs
+     total cpu time spent up to now is      115.2 secs
 
      Computing kpt #:    52
-     total cpu time spent up to now is      152.7 secs
+     total cpu time spent up to now is      117.2 secs
 
      Computing kpt #:    53
-     total cpu time spent up to now is      155.1 secs
+     total cpu time spent up to now is      119.3 secs
 
      Computing kpt #:    54
-     total cpu time spent up to now is      157.8 secs
+     total cpu time spent up to now is      121.4 secs
 
      Computing kpt #:    55
-     total cpu time spent up to now is      160.6 secs
+     total cpu time spent up to now is      123.5 secs
 
      Computing kpt #:    56
-     total cpu time spent up to now is      163.3 secs
+     total cpu time spent up to now is      125.6 secs
 
      Computing kpt #:    57
-     total cpu time spent up to now is      166.0 secs
+     total cpu time spent up to now is      127.7 secs
 
      Computing kpt #:    58
-     total cpu time spent up to now is      168.7 secs
+     total cpu time spent up to now is      129.7 secs
 
      Computing kpt #:    59
-     total cpu time spent up to now is      171.4 secs
+     total cpu time spent up to now is      131.8 secs
 
      Computing kpt #:    60
-     total cpu time spent up to now is      174.2 secs
+     total cpu time spent up to now is      133.9 secs
 
      Computing kpt #:    61
-     total cpu time spent up to now is      176.7 secs
+     total cpu time spent up to now is      135.9 secs
 
      Computing kpt #:    62
-     total cpu time spent up to now is      179.4 secs
+     total cpu time spent up to now is      138.0 secs
 
      Computing kpt #:    63
-     total cpu time spent up to now is      182.1 secs
+     total cpu time spent up to now is      140.1 secs
 
      Computing kpt #:    64
-     total cpu time spent up to now is      184.9 secs
+     total cpu time spent up to now is      142.2 secs
 
      Computing kpt #:    65
-     total cpu time spent up to now is      187.5 secs
+     total cpu time spent up to now is      144.2 secs
 
      Computing kpt #:    66
-     total cpu time spent up to now is      190.3 secs
+     total cpu time spent up to now is      146.2 secs
 
      Computing kpt #:    67
-     total cpu time spent up to now is      193.0 secs
+     total cpu time spent up to now is      148.4 secs
 
      Computing kpt #:    68
-     total cpu time spent up to now is      195.5 secs
+     total cpu time spent up to now is      150.6 secs
 
      Computing kpt #:    69
-     total cpu time spent up to now is      198.2 secs
+     total cpu time spent up to now is      152.8 secs
 
      Computing kpt #:    70
-     total cpu time spent up to now is      200.9 secs
+     total cpu time spent up to now is      155.0 secs
 
      Computing kpt #:    71
-     total cpu time spent up to now is      203.6 secs
+     total cpu time spent up to now is      157.2 secs
 
      Computing kpt #:    72
-     total cpu time spent up to now is      206.4 secs
+     total cpu time spent up to now is      159.5 secs
 
      Computing kpt #:    73
-     total cpu time spent up to now is      209.3 secs
+     total cpu time spent up to now is      161.7 secs
 
      Computing kpt #:    74
-     total cpu time spent up to now is      212.1 secs
+     total cpu time spent up to now is      163.9 secs
 
      Computing kpt #:    75
-     total cpu time spent up to now is      214.8 secs
+     total cpu time spent up to now is      166.1 secs
 
      Computing kpt #:    76
-     total cpu time spent up to now is      218.3 secs
+     total cpu time spent up to now is      168.2 secs
 
      Computing kpt #:    77
-     total cpu time spent up to now is      221.2 secs
+     total cpu time spent up to now is      170.9 secs
 
      Computing kpt #:    78
-     total cpu time spent up to now is      224.9 secs
+     total cpu time spent up to now is      173.7 secs
 
      Computing kpt #:    79
-     total cpu time spent up to now is      227.8 secs
+     total cpu time spent up to now is      175.9 secs
 
      Computing kpt #:    80
-     total cpu time spent up to now is      231.3 secs
+     total cpu time spent up to now is      178.5 secs
 
      Computing kpt #:    81
-     total cpu time spent up to now is      234.8 secs
+     total cpu time spent up to now is      181.1 secs
 
      Computing kpt #:    82
-     total cpu time spent up to now is      238.3 secs
+     total cpu time spent up to now is      183.8 secs
 
      Computing kpt #:    83
-     total cpu time spent up to now is      241.9 secs
+     total cpu time spent up to now is      186.3 secs
 
      Computing kpt #:    84
-     total cpu time spent up to now is      245.5 secs
+     total cpu time spent up to now is      189.0 secs
 
      Computing kpt #:    85
-     total cpu time spent up to now is      249.1 secs
+     total cpu time spent up to now is      191.7 secs
 
      Computing kpt #:    86
-     total cpu time spent up to now is      252.5 secs
+     total cpu time spent up to now is      194.2 secs
 
      Computing kpt #:    87
-     total cpu time spent up to now is      256.7 secs
+     total cpu time spent up to now is      196.7 secs
 
      Computing kpt #:    88
-     total cpu time spent up to now is      260.2 secs
+     total cpu time spent up to now is      199.4 secs
 
      Computing kpt #:    89
-     total cpu time spent up to now is      263.9 secs
+     total cpu time spent up to now is      202.2 secs
 
      Computing kpt #:    90
-     total cpu time spent up to now is      267.4 secs
+     total cpu time spent up to now is      205.1 secs
 
      Computing kpt #:    91
-     total cpu time spent up to now is      271.0 secs
+     total cpu time spent up to now is      207.8 secs
 
      Computing kpt #:    92
-     total cpu time spent up to now is      274.4 secs
+     total cpu time spent up to now is      210.6 secs
 
      Computing kpt #:    93
-     total cpu time spent up to now is      277.9 secs
+     total cpu time spent up to now is      213.5 secs
 
      Computing kpt #:    94
-     total cpu time spent up to now is      281.5 secs
+     total cpu time spent up to now is      216.3 secs
 
      Computing kpt #:    95
-     total cpu time spent up to now is      284.4 secs
+     total cpu time spent up to now is      218.9 secs
 
      Computing kpt #:    96
-     total cpu time spent up to now is      287.8 secs
+     total cpu time spent up to now is      221.5 secs
 
      Computing kpt #:    97
-     total cpu time spent up to now is      290.6 secs
+     total cpu time spent up to now is      224.2 secs
 
      Computing kpt #:    98
-     total cpu time spent up to now is      293.4 secs
+     total cpu time spent up to now is      226.9 secs
 
      Computing kpt #:    99
-     total cpu time spent up to now is      296.1 secs
+     total cpu time spent up to now is      228.9 secs
 
      Computing kpt #:   100
-     total cpu time spent up to now is      298.9 secs
+     total cpu time spent up to now is      231.7 secs
 
      Computing kpt #:   101
-     total cpu time spent up to now is      301.7 secs
+     total cpu time spent up to now is      234.3 secs
 
      Computing kpt #:   102
-     total cpu time spent up to now is      304.3 secs
+     total cpu time spent up to now is      236.4 secs
 
      Computing kpt #:   103
-     total cpu time spent up to now is      307.1 secs
+     total cpu time spent up to now is      238.5 secs
 
      Computing kpt #:   104
-     total cpu time spent up to now is      309.8 secs
+     total cpu time spent up to now is      240.6 secs
 
      Computing kpt #:   105
-     total cpu time spent up to now is      312.6 secs
+     total cpu time spent up to now is      242.6 secs
 
      Computing kpt #:   106
-     total cpu time spent up to now is      315.4 secs
+     total cpu time spent up to now is      244.6 secs
 
      Computing kpt #:   107
-     total cpu time spent up to now is      318.2 secs
+     total cpu time spent up to now is      246.7 secs
 
      Computing kpt #:   108
-     total cpu time spent up to now is      320.9 secs
+     total cpu time spent up to now is      248.7 secs
 
      Computing kpt #:   109
-     total cpu time spent up to now is      323.6 secs
+     total cpu time spent up to now is      250.9 secs
 
      Computing kpt #:   110
-     total cpu time spent up to now is      326.3 secs
+     total cpu time spent up to now is      253.1 secs
 
      Computing kpt #:   111
-     total cpu time spent up to now is      329.0 secs
+     total cpu time spent up to now is      255.4 secs
 
      Computing kpt #:   112
-     total cpu time spent up to now is      331.8 secs
+     total cpu time spent up to now is      257.5 secs
 
      Computing kpt #:   113
-     total cpu time spent up to now is      334.4 secs
+     total cpu time spent up to now is      259.7 secs
 
      Computing kpt #:   114
-     total cpu time spent up to now is      337.2 secs
+     total cpu time spent up to now is      261.9 secs
 
      Computing kpt #:   115
-     total cpu time spent up to now is      339.9 secs
+     total cpu time spent up to now is      264.1 secs
 
      Computing kpt #:   116
-     total cpu time spent up to now is      342.6 secs
+     total cpu time spent up to now is      266.2 secs
 
      Computing kpt #:   117
-     total cpu time spent up to now is      344.9 secs
+     total cpu time spent up to now is      268.3 secs
 
      Computing kpt #:   118
-     total cpu time spent up to now is      347.6 secs
+     total cpu time spent up to now is      270.4 secs
 
      Computing kpt #:   119
-     total cpu time spent up to now is      350.3 secs
+     total cpu time spent up to now is      272.3 secs
 
      Computing kpt #:   120
-     total cpu time spent up to now is      352.9 secs
+     total cpu time spent up to now is      274.4 secs
 
      Computing kpt #:   121
-     total cpu time spent up to now is      355.6 secs
+     total cpu time spent up to now is      276.4 secs
 
      Computing kpt #:   122
-     total cpu time spent up to now is      358.4 secs
+     total cpu time spent up to now is      278.4 secs
 
      Computing kpt #:   123
-     total cpu time spent up to now is      361.1 secs
+     total cpu time spent up to now is      280.4 secs
 
      Computing kpt #:   124
-     total cpu time spent up to now is      363.8 secs
+     total cpu time spent up to now is      282.4 secs
 
      Computing kpt #:   125
-     total cpu time spent up to now is      366.5 secs
+     total cpu time spent up to now is      284.4 secs
 
      Computing kpt #:   126
-     total cpu time spent up to now is      369.9 secs
+     total cpu time spent up to now is      286.4 secs
 
      Computing kpt #:   127
-     total cpu time spent up to now is      372.6 secs
+     total cpu time spent up to now is      288.5 secs
 
      Computing kpt #:   128
-     total cpu time spent up to now is      375.3 secs
+     total cpu time spent up to now is      290.5 secs
 
      Computing kpt #:   129
-     total cpu time spent up to now is      378.0 secs
+     total cpu time spent up to now is      292.6 secs
 
      Computing kpt #:   130
-     total cpu time spent up to now is      380.7 secs
+     total cpu time spent up to now is      294.6 secs
 
      Computing kpt #:   131
-     total cpu time spent up to now is      383.4 secs
+     total cpu time spent up to now is      296.7 secs
 
      Computing kpt #:   132
-     total cpu time spent up to now is      386.2 secs
+     total cpu time spent up to now is      298.8 secs
 
      Computing kpt #:   133
-     total cpu time spent up to now is      388.9 secs
+     total cpu time spent up to now is      301.0 secs
 
      Computing kpt #:   134
-     total cpu time spent up to now is      391.5 secs
+     total cpu time spent up to now is      303.2 secs
 
      Computing kpt #:   135
-     total cpu time spent up to now is      394.2 secs
+     total cpu time spent up to now is      305.3 secs
 
      Computing kpt #:   136
-     total cpu time spent up to now is      397.0 secs
+     total cpu time spent up to now is      307.5 secs
 
      Computing kpt #:   137
-     total cpu time spent up to now is      399.7 secs
+     total cpu time spent up to now is      309.6 secs
 
      Computing kpt #:   138
-     total cpu time spent up to now is      402.4 secs
+     total cpu time spent up to now is      311.7 secs
 
      Computing kpt #:   139
-     total cpu time spent up to now is      405.2 secs
+     total cpu time spent up to now is      313.8 secs
 
      Computing kpt #:   140
-     total cpu time spent up to now is      407.9 secs
+     total cpu time spent up to now is      315.9 secs
 
      Computing kpt #:   141
-     total cpu time spent up to now is      410.6 secs
+     total cpu time spent up to now is      318.0 secs
 
      Computing kpt #:   142
-     total cpu time spent up to now is      413.2 secs
+     total cpu time spent up to now is      320.0 secs
 
      Computing kpt #:   143
-     total cpu time spent up to now is      415.8 secs
+     total cpu time spent up to now is      321.9 secs
 
      Computing kpt #:   144
-     total cpu time spent up to now is      418.4 secs
+     total cpu time spent up to now is      323.8 secs
 
      Computing kpt #:   145
-     total cpu time spent up to now is      421.1 secs
+     total cpu time spent up to now is      325.8 secs
 
      Computing kpt #:   146
-     total cpu time spent up to now is      423.7 secs
+     total cpu time spent up to now is      327.8 secs
 
      Computing kpt #:   147
-     total cpu time spent up to now is      426.2 secs
+     total cpu time spent up to now is      329.8 secs
 
      Computing kpt #:   148
-     total cpu time spent up to now is      428.8 secs
+     total cpu time spent up to now is      331.7 secs
 
      Computing kpt #:   149
-     total cpu time spent up to now is      431.4 secs
+     total cpu time spent up to now is      333.7 secs
 
      Computing kpt #:   150
-     total cpu time spent up to now is      434.1 secs
+     total cpu time spent up to now is      335.7 secs
 
      Computing kpt #:   151
-     total cpu time spent up to now is      436.8 secs
+     total cpu time spent up to now is      337.7 secs
 
      Computing kpt #:   152
-     total cpu time spent up to now is      439.4 secs
+     total cpu time spent up to now is      339.7 secs
 
      Computing kpt #:   153
-     total cpu time spent up to now is      442.0 secs
+     total cpu time spent up to now is      341.6 secs
 
      Computing kpt #:   154
-     total cpu time spent up to now is      444.6 secs
+     total cpu time spent up to now is      343.7 secs
 
      Computing kpt #:   155
-     total cpu time spent up to now is      447.3 secs
+     total cpu time spent up to now is      345.7 secs
 
      Computing kpt #:   156
-     total cpu time spent up to now is      450.0 secs
+     total cpu time spent up to now is      347.7 secs
 
      Computing kpt #:   157
-     total cpu time spent up to now is      452.8 secs
+     total cpu time spent up to now is      349.8 secs
 
      Computing kpt #:   158
-     total cpu time spent up to now is      455.5 secs
+     total cpu time spent up to now is      352.0 secs
 
      Computing kpt #:   159
-     total cpu time spent up to now is      458.2 secs
+     total cpu time spent up to now is      354.1 secs
 
      Computing kpt #:   160
-     total cpu time spent up to now is      461.0 secs
+     total cpu time spent up to now is      356.3 secs
 
      Computing kpt #:   161
-     total cpu time spent up to now is      463.7 secs
+     total cpu time spent up to now is      358.4 secs
 
      Computing kpt #:   162
-     total cpu time spent up to now is      466.5 secs
+     total cpu time spent up to now is      360.7 secs
 
      Computing kpt #:   163
-     total cpu time spent up to now is      469.2 secs
+     total cpu time spent up to now is      362.9 secs
 
      Computing kpt #:   164
-     total cpu time spent up to now is      471.8 secs
+     total cpu time spent up to now is      365.1 secs
 
      Computing kpt #:   165
-     total cpu time spent up to now is      474.5 secs
+     total cpu time spent up to now is      367.2 secs
 
      Computing kpt #:   166
-     total cpu time spent up to now is      477.2 secs
+     total cpu time spent up to now is      369.3 secs
 
      Computing kpt #:   167
-     total cpu time spent up to now is      480.0 secs
+     total cpu time spent up to now is      371.5 secs
 
      Computing kpt #:   168
-     total cpu time spent up to now is      482.7 secs
+     total cpu time spent up to now is      373.6 secs
 
      Computing kpt #:   169
-     total cpu time spent up to now is      485.4 secs
+     total cpu time spent up to now is      375.7 secs
 
      Computing kpt #:   170
-     total cpu time spent up to now is      488.1 secs
+     total cpu time spent up to now is      377.8 secs
 
      Computing kpt #:   171
-     total cpu time spent up to now is      490.8 secs
+     total cpu time spent up to now is      379.9 secs
 
      Computing kpt #:   172
-     total cpu time spent up to now is      492.9 secs
+     total cpu time spent up to now is      382.1 secs
 
      Computing kpt #:   173
-     total cpu time spent up to now is      495.2 secs
+     total cpu time spent up to now is      384.2 secs
 
      Computing kpt #:   174
-     total cpu time spent up to now is      498.0 secs
+     total cpu time spent up to now is      386.4 secs
 
      Computing kpt #:   175
-     total cpu time spent up to now is      500.6 secs
+     total cpu time spent up to now is      388.6 secs
 
      Computing kpt #:   176
-     total cpu time spent up to now is      503.3 secs
+     total cpu time spent up to now is      390.7 secs
 
      Computing kpt #:   177
-     total cpu time spent up to now is      506.1 secs
+     total cpu time spent up to now is      392.8 secs
 
      Computing kpt #:   178
-     total cpu time spent up to now is      508.8 secs
+     total cpu time spent up to now is      394.9 secs
 
      Computing kpt #:   179
-     total cpu time spent up to now is      511.5 secs
+     total cpu time spent up to now is      397.0 secs
 
      Computing kpt #:   180
-     total cpu time spent up to now is      514.2 secs
+     total cpu time spent up to now is      399.0 secs
 
      Computing kpt #:   181
-     total cpu time spent up to now is      516.9 secs
+     total cpu time spent up to now is      401.2 secs
 
      Computing kpt #:   182
-     total cpu time spent up to now is      519.6 secs
+     total cpu time spent up to now is      403.5 secs
 
      Computing kpt #:   183
-     total cpu time spent up to now is      522.4 secs
+     total cpu time spent up to now is      405.8 secs
 
      Computing kpt #:   184
-     total cpu time spent up to now is      525.0 secs
+     total cpu time spent up to now is      408.1 secs
 
      Computing kpt #:   185
-     total cpu time spent up to now is      527.7 secs
+     total cpu time spent up to now is      410.4 secs
 
      Computing kpt #:   186
-     total cpu time spent up to now is      530.5 secs
+     total cpu time spent up to now is      412.7 secs
 
      Computing kpt #:   187
-     total cpu time spent up to now is      533.2 secs
+     total cpu time spent up to now is      415.0 secs
 
      Computing kpt #:   188
-     total cpu time spent up to now is      535.9 secs
+     total cpu time spent up to now is      417.2 secs
 
      Computing kpt #:   189
-     total cpu time spent up to now is      538.6 secs
+     total cpu time spent up to now is      419.3 secs
 
      Computing kpt #:   190
-     total cpu time spent up to now is      541.3 secs
+     total cpu time spent up to now is      421.5 secs
 
      Computing kpt #:   191
-     total cpu time spent up to now is      544.1 secs
+     total cpu time spent up to now is      423.7 secs
 
      Computing kpt #:   192
-     total cpu time spent up to now is      546.8 secs
+     total cpu time spent up to now is      425.9 secs
 
      Computing kpt #:   193
-     total cpu time spent up to now is      549.5 secs
+     total cpu time spent up to now is      428.1 secs
 
      Computing kpt #:   194
-     total cpu time spent up to now is      552.2 secs
+     total cpu time spent up to now is      430.2 secs
 
      Computing kpt #:   195
-     total cpu time spent up to now is      555.1 secs
+     total cpu time spent up to now is      432.4 secs
 
      Computing kpt #:   196
-     total cpu time spent up to now is      557.8 secs
+     total cpu time spent up to now is      434.4 secs
 
      Computing kpt #:   197
-     total cpu time spent up to now is      560.6 secs
+     total cpu time spent up to now is      436.5 secs
 
      Computing kpt #:   198
-     total cpu time spent up to now is      563.2 secs
+     total cpu time spent up to now is      438.7 secs
 
      Computing kpt #:   199
-     total cpu time spent up to now is      565.9 secs
+     total cpu time spent up to now is      440.8 secs
 
      Computing kpt #:   200
-     total cpu time spent up to now is      568.7 secs
+     total cpu time spent up to now is      443.0 secs
 
      Computing kpt #:   201
-     total cpu time spent up to now is      571.4 secs
+     total cpu time spent up to now is      445.1 secs
 
      Computing kpt #:   202
-     total cpu time spent up to now is      574.2 secs
+     total cpu time spent up to now is      447.3 secs
 
      Computing kpt #:   203
-     total cpu time spent up to now is      577.0 secs
+     total cpu time spent up to now is      449.6 secs
 
      Computing kpt #:   204
-     total cpu time spent up to now is      579.8 secs
+     total cpu time spent up to now is      451.9 secs
 
      Computing kpt #:   205
-     total cpu time spent up to now is      582.5 secs
+     total cpu time spent up to now is      454.1 secs
 
      Computing kpt #:   206
-     total cpu time spent up to now is      585.1 secs
+     total cpu time spent up to now is      456.4 secs
 
      Computing kpt #:   207
-     total cpu time spent up to now is      587.7 secs
+     total cpu time spent up to now is      458.8 secs
 
      Computing kpt #:   208
-     total cpu time spent up to now is      590.4 secs
+     total cpu time spent up to now is      461.0 secs
 
      Computing kpt #:   209
-     total cpu time spent up to now is      593.1 secs
+     total cpu time spent up to now is      463.3 secs
 
      Computing kpt #:   210
-     total cpu time spent up to now is      595.9 secs
+     total cpu time spent up to now is      465.5 secs
 
      Computing kpt #:   211
-     total cpu time spent up to now is      598.7 secs
+     total cpu time spent up to now is      467.8 secs
 
      Computing kpt #:   212
-     total cpu time spent up to now is      601.4 secs
+     total cpu time spent up to now is      470.0 secs
 
      Computing kpt #:   213
-     total cpu time spent up to now is      604.1 secs
+     total cpu time spent up to now is      472.1 secs
 
      Computing kpt #:   214
-     total cpu time spent up to now is      607.0 secs
+     total cpu time spent up to now is      474.3 secs
 
      Computing kpt #:   215
-     total cpu time spent up to now is      609.8 secs
+     total cpu time spent up to now is      476.5 secs
 
      Computing kpt #:   216
-     total cpu time spent up to now is      612.5 secs
+     total cpu time spent up to now is      478.7 secs
 
      Computing kpt #:   217
-     total cpu time spent up to now is      615.2 secs
+     total cpu time spent up to now is      480.8 secs
 
      Computing kpt #:   218
-     total cpu time spent up to now is      617.8 secs
+     total cpu time spent up to now is      482.9 secs
 
      Computing kpt #:   219
-     total cpu time spent up to now is      620.4 secs
+     total cpu time spent up to now is      485.1 secs
 
      Computing kpt #:   220
-     total cpu time spent up to now is      623.3 secs
+     total cpu time spent up to now is      487.3 secs
 
      Computing kpt #:   221
-     total cpu time spent up to now is      626.0 secs
+     total cpu time spent up to now is      489.4 secs
 
      Computing kpt #:   222
-     total cpu time spent up to now is      628.8 secs
+     total cpu time spent up to now is      491.5 secs
 
      Computing kpt #:   223
-     total cpu time spent up to now is      631.5 secs
+     total cpu time spent up to now is      493.7 secs
 
      Computing kpt #:   224
-     total cpu time spent up to now is      634.2 secs
+     total cpu time spent up to now is      495.8 secs
 
      Computing kpt #:   225
-     total cpu time spent up to now is      636.9 secs
+     total cpu time spent up to now is      498.1 secs
 
      Computing kpt #:   226
-     total cpu time spent up to now is      639.6 secs
+     total cpu time spent up to now is      500.0 secs
 
      Computing kpt #:   227
-     total cpu time spent up to now is      642.3 secs
+     total cpu time spent up to now is      502.3 secs
 
      Computing kpt #:   228
-     total cpu time spent up to now is      645.0 secs
+     total cpu time spent up to now is      504.6 secs
 
      Computing kpt #:   229
-     total cpu time spent up to now is      647.8 secs
+     total cpu time spent up to now is      506.9 secs
 
      Computing kpt #:   230
-     total cpu time spent up to now is      650.5 secs
+     total cpu time spent up to now is      509.1 secs
 
      Computing kpt #:   231
-     total cpu time spent up to now is      653.1 secs
+     total cpu time spent up to now is      511.4 secs
 
      Computing kpt #:   232
-     total cpu time spent up to now is      655.8 secs
+     total cpu time spent up to now is      514.3 secs
 
      Computing kpt #:   233
-     total cpu time spent up to now is      658.5 secs
+     total cpu time spent up to now is      516.6 secs
 
      Computing kpt #:   234
-     total cpu time spent up to now is      661.3 secs
+     total cpu time spent up to now is      518.7 secs
 
      Computing kpt #:   235
-     total cpu time spent up to now is      664.0 secs
+     total cpu time spent up to now is      520.9 secs
 
      Computing kpt #:   236
-     total cpu time spent up to now is      666.7 secs
+     total cpu time spent up to now is      523.0 secs
 
      Computing kpt #:   237
-     total cpu time spent up to now is      669.3 secs
+     total cpu time spent up to now is      525.0 secs
 
      Computing kpt #:   238
-     total cpu time spent up to now is      671.9 secs
+     total cpu time spent up to now is      527.2 secs
 
      Computing kpt #:   239
-     total cpu time spent up to now is      674.6 secs
+     total cpu time spent up to now is      529.3 secs
 
      Computing kpt #:   240
-     total cpu time spent up to now is      677.3 secs
+     total cpu time spent up to now is      531.4 secs
 
      Computing kpt #:   241
-     total cpu time spent up to now is      680.0 secs
+     total cpu time spent up to now is      533.6 secs
 
      Computing kpt #:   242
-     total cpu time spent up to now is      682.6 secs
+     total cpu time spent up to now is      535.6 secs
 
      Computing kpt #:   243
-     total cpu time spent up to now is      685.2 secs
+     total cpu time spent up to now is      537.8 secs
 
      Computing kpt #:   244
-     total cpu time spent up to now is      687.8 secs
+     total cpu time spent up to now is      539.8 secs
 
      Computing kpt #:   245
-     total cpu time spent up to now is      690.4 secs
+     total cpu time spent up to now is      541.9 secs
 
      Computing kpt #:   246
-     total cpu time spent up to now is      693.3 secs
+     total cpu time spent up to now is      544.0 secs
 
      Computing kpt #:   247
-     total cpu time spent up to now is      695.9 secs
+     total cpu time spent up to now is      546.1 secs
 
      Computing kpt #:   248
-     total cpu time spent up to now is      698.7 secs
+     total cpu time spent up to now is      548.3 secs
 
      Computing kpt #:   249
-     total cpu time spent up to now is      701.5 secs
+     total cpu time spent up to now is      550.7 secs
 
      Computing kpt #:   250
-     total cpu time spent up to now is      704.2 secs
+     total cpu time spent up to now is      553.0 secs
 
      Computing kpt #:   251
-     total cpu time spent up to now is      706.7 secs
+     total cpu time spent up to now is      555.0 secs
 
      Computing kpt #:   252
-     total cpu time spent up to now is      709.5 secs
+     total cpu time spent up to now is      557.4 secs
 
      Computing kpt #:   253
-     total cpu time spent up to now is      712.1 secs
+     total cpu time spent up to now is      559.7 secs
 
      Computing kpt #:   254
-     total cpu time spent up to now is      714.6 secs
+     total cpu time spent up to now is      561.9 secs
 
      Computing kpt #:   255
-     total cpu time spent up to now is      717.3 secs
+     total cpu time spent up to now is      564.3 secs
 
      Computing kpt #:   256
-     total cpu time spent up to now is      720.2 secs
+     total cpu time spent up to now is      566.6 secs
 
      Computing kpt #:   257
-     total cpu time spent up to now is      723.0 secs
+     total cpu time spent up to now is      568.8 secs
 
      Computing kpt #:   258
-     total cpu time spent up to now is      725.6 secs
+     total cpu time spent up to now is      571.0 secs
 
      Computing kpt #:   259
-     total cpu time spent up to now is      728.3 secs
+     total cpu time spent up to now is      572.9 secs
 
      Computing kpt #:   260
-     total cpu time spent up to now is      731.1 secs
+     total cpu time spent up to now is      575.1 secs
 
      Computing kpt #:   261
-     total cpu time spent up to now is      733.9 secs
+     total cpu time spent up to now is      577.2 secs
 
      Computing kpt #:   262
-     total cpu time spent up to now is      736.6 secs
+     total cpu time spent up to now is      579.4 secs
 
      Computing kpt #:   263
-     total cpu time spent up to now is      739.3 secs
+     total cpu time spent up to now is      581.6 secs
 
      Computing kpt #:   264
-     total cpu time spent up to now is      742.0 secs
+     total cpu time spent up to now is      583.8 secs
 
      Computing kpt #:   265
-     total cpu time spent up to now is      744.8 secs
+     total cpu time spent up to now is      585.9 secs
 
      Computing kpt #:   266
-     total cpu time spent up to now is      747.5 secs
+     total cpu time spent up to now is      588.2 secs
 
      Computing kpt #:   267
-     total cpu time spent up to now is      750.3 secs
+     total cpu time spent up to now is      590.4 secs
 
      Computing kpt #:   268
-     total cpu time spent up to now is      753.1 secs
+     total cpu time spent up to now is      592.5 secs
 
      Computing kpt #:   269
-     total cpu time spent up to now is      755.9 secs
+     total cpu time spent up to now is      594.3 secs
 
      Computing kpt #:   270
-     total cpu time spent up to now is      758.5 secs
+     total cpu time spent up to now is      596.5 secs
 
      Computing kpt #:   271
-     total cpu time spent up to now is      761.2 secs
+     total cpu time spent up to now is      598.4 secs
 
      Computing kpt #:   272
-     total cpu time spent up to now is      763.9 secs
+     total cpu time spent up to now is      600.7 secs
 
      Computing kpt #:   273
-     total cpu time spent up to now is      766.7 secs
+     total cpu time spent up to now is      603.0 secs
 
      Computing kpt #:   274
-     total cpu time spent up to now is      769.5 secs
+     total cpu time spent up to now is      605.4 secs
 
      Computing kpt #:   275
-     total cpu time spent up to now is      771.8 secs
+     total cpu time spent up to now is      607.7 secs
 
      Computing kpt #:   276
-     total cpu time spent up to now is      774.5 secs
+     total cpu time spent up to now is      610.1 secs
 
      Computing kpt #:   277
-     total cpu time spent up to now is      777.2 secs
+     total cpu time spent up to now is      612.4 secs
 
      Computing kpt #:   278
-     total cpu time spent up to now is      779.9 secs
+     total cpu time spent up to now is      614.6 secs
 
      Computing kpt #:   279
-     total cpu time spent up to now is      782.3 secs
+     total cpu time spent up to now is      616.8 secs
 
      Computing kpt #:   280
-     total cpu time spent up to now is      785.0 secs
+     total cpu time spent up to now is      619.1 secs
 
      Computing kpt #:   281
-     total cpu time spent up to now is      787.7 secs
+     total cpu time spent up to now is      621.2 secs
 
      Computing kpt #:   282
-     total cpu time spent up to now is      790.3 secs
+     total cpu time spent up to now is      623.3 secs
 
      Computing kpt #:   283
-     total cpu time spent up to now is      793.1 secs
+     total cpu time spent up to now is      625.4 secs
 
      Computing kpt #:   284
-     total cpu time spent up to now is      795.7 secs
+     total cpu time spent up to now is      627.3 secs
 
-     ethr =  1.92E-15,  avg # of iterations = 31.6
+     ethr =  1.92E-15,  avg # of iterations = 31.7
 
-     total cpu time spent up to now is      795.7 secs
+     total cpu time spent up to now is      627.3 secs
 
      End of band structure calculation
 
@@ -3650,56 +3650,56 @@ B_2    1.00 -1.00 -1.00  1.00
 
      Writing output data file SnO2.save
  
-     init_run     :      0.41s CPU      0.48s WALL (       1 calls)
-     electrons    :    755.29s CPU    793.75s WALL (       1 calls)
+     init_run     :      0.33s CPU      0.39s WALL (       1 calls)
+     electrons    :    620.61s CPU    625.80s WALL (       1 calls)
 
      Called by init_run:
-     wfcinit      :      0.00s CPU      0.00s WALL (       1 calls)
-     wfcinit:atom :      0.52s CPU      0.75s WALL (     284 calls)
-     wfcinit:wfcr :     35.29s CPU     37.29s WALL (     284 calls)
-     potinit      :      0.07s CPU      0.10s WALL (       1 calls)
-     hinit0       :      0.31s CPU      0.32s WALL (       1 calls)
+     wfcinit      :      0.00s CPU      0.03s WALL (       1 calls)
+     wfcinit:atom :      0.42s CPU      0.59s WALL (     284 calls)
+     wfcinit:wfcr :     28.83s CPU     29.15s WALL (     284 calls)
+     potinit      :      0.05s CPU      0.08s WALL (       1 calls)
+     hinit0       :      0.25s CPU      0.25s WALL (       1 calls)
 
      Called by electrons:
-     c_bands      :    755.29s CPU    793.74s WALL (       1 calls)
-     v_of_rho     :      0.05s CPU      0.06s WALL (       1 calls)
+     c_bands      :    620.60s CPU    625.78s WALL (       1 calls)
+     v_of_rho     :      0.04s CPU      0.04s WALL (       1 calls)
      v_h          :      0.00s CPU      0.00s WALL (       1 calls)
-     v_xc         :      0.05s CPU      0.05s WALL (       1 calls)
+     v_xc         :      0.04s CPU      0.04s WALL (       1 calls)
 
      Called by c_bands:
-     init_us_2    :      0.85s CPU      0.93s WALL (     284 calls)
-     cegterg      :    708.79s CPU    743.78s WALL (     597 calls)
+     init_us_2    :      0.70s CPU      0.73s WALL (     284 calls)
+     cegterg      :    582.69s CPU    587.04s WALL (     602 calls)
 
      Called by sum_band:
 
      Called by *egterg:
-     h_psi        :    580.92s CPU    608.79s WALL (    9859 calls)
-     g_psi        :     10.63s CPU     11.02s WALL (    8978 calls)
-     cdiaghg      :     33.72s CPU     35.18s WALL (    9262 calls)
-     cegterg:over :     47.83s CPU     49.91s WALL (    8978 calls)
-     cegterg:upda :     38.82s CPU     40.45s WALL (    8978 calls)
-     cegterg:last :     21.45s CPU     22.32s WALL (    2043 calls)
+     h_psi        :    475.22s CPU    477.57s WALL (    9901 calls)
+     g_psi        :      8.72s CPU      8.71s WALL (    9015 calls)
+     cdiaghg      :     27.91s CPU     27.93s WALL (    9299 calls)
+     cegterg:over :     39.88s CPU     39.97s WALL (    9015 calls)
+     cegterg:upda :     32.95s CPU     33.04s WALL (    9015 calls)
+     cegterg:last :     18.12s CPU     18.13s WALL (    2057 calls)
 
      Called by h_psi:
-     h_psi:pot    :    578.24s CPU    605.76s WALL (    9859 calls)
-     h_psi:calbec :     32.23s CPU     33.65s WALL (    9859 calls)
-     vloc_psi     :    515.17s CPU    539.97s WALL (    9859 calls)
-     add_vuspsi   :     30.79s CPU     32.08s WALL (    9859 calls)
+     h_psi:pot    :    472.68s CPU    474.79s WALL (    9901 calls)
+     h_psi:calbec :     27.24s CPU     27.30s WALL (    9901 calls)
+     vloc_psi     :    418.70s CPU    420.62s WALL (    9901 calls)
+     add_vuspsi   :     26.69s CPU     26.81s WALL (    9901 calls)
 
      General routines
-     calbec       :     32.19s CPU     33.62s WALL (    9859 calls)
-     fft          :      0.03s CPU      0.03s WALL (      12 calls)
-     fftw         :    479.59s CPU    502.64s WALL (  334926 calls)
-     davcio       :      0.12s CPU      4.79s WALL (     568 calls)
+     calbec       :     27.22s CPU     27.28s WALL (    9901 calls)
+     fft          :      0.02s CPU      0.02s WALL (      12 calls)
+     fftw         :    388.94s CPU    390.72s WALL (  336914 calls)
+     davcio       :      0.09s CPU      1.97s WALL (     568 calls)
  
      Parallel routines
-     fft_scatt_xy :     43.40s CPU     45.71s WALL (  334938 calls)
-     fft_scatt_yz :     52.33s CPU     55.15s WALL (  334938 calls)
+     fft_scatt_xy :     35.41s CPU     35.04s WALL (  336926 calls)
+     fft_scatt_yz :     41.85s CPU     41.77s WALL (  336926 calls)
  
-     PWSCF        : 12m38.70s CPU    13m35.57s WALL
+     PWSCF        : 10m22.73s CPU    10m39.28s WALL
 
  
-   This run was terminated on:  13:35: 2  11May2018            
+   This run was terminated on:  16:29:30  23May2018            
 
 =------------------------------------------------------------------------------=
    JOB DONE.
