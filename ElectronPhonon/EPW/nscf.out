@@ -1,5 +1,5 @@
 
-     Program PWSCF v.6.2.2 starts on 16May2018 at 22:13:18 
+     Program PWSCF v.6.2.2 starts on 25May2018 at  2:44:23 
 
      This program is part of the open-source Quantum ESPRESSO suite
      for quantum simulation of materials; please cite
@@ -19,242 +19,6 @@ Warning: card  &IONS ignored
 Warning: card  / ignored
 Warning: card  &CELL ignored
 Warning: card  / ignored
-Warning: card   0.0000000000 0.0000000000 0.1666666667 0.0046296296 ignored
-Warning: card   0.0000000000 0.0000000000 0.3333333333 0.0046296296 ignored
-Warning: card   0.0000000000 0.0000000000 0.5000000000 0.0046296296 ignored
-Warning: card   0.0000000000 0.0000000000 0.6666666667 0.0046296296 ignored
-Warning: card   0.0000000000 0.0000000000 0.8333333333 0.0046296296 ignored
-Warning: card   0.0000000000 0.1666666667 0.0000000000 0.0046296296 ignored
-Warning: card   0.0000000000 0.1666666667 0.1666666667 0.0046296296 ignored
-Warning: card   0.0000000000 0.1666666667 0.3333333333 0.0046296296 ignored
-Warning: card   0.0000000000 0.1666666667 0.5000000000 0.0046296296 ignored
-Warning: card   0.0000000000 0.1666666667 0.6666666667 0.0046296296 ignored
-Warning: card   0.0000000000 0.1666666667 0.8333333333 0.0046296296 ignored
-Warning: card   0.0000000000 0.3333333333 0.0000000000 0.0046296296 ignored
-Warning: card   0.0000000000 0.3333333333 0.1666666667 0.0046296296 ignored
-Warning: card   0.0000000000 0.3333333333 0.3333333333 0.0046296296 ignored
-Warning: card   0.0000000000 0.3333333333 0.5000000000 0.0046296296 ignored
-Warning: card   0.0000000000 0.3333333333 0.6666666667 0.0046296296 ignored
-Warning: card   0.0000000000 0.3333333333 0.8333333333 0.0046296296 ignored
-Warning: card   0.0000000000 0.5000000000 0.0000000000 0.0046296296 ignored
-Warning: card   0.0000000000 0.5000000000 0.1666666667 0.0046296296 ignored
-Warning: card   0.0000000000 0.5000000000 0.3333333333 0.0046296296 ignored
-Warning: card   0.0000000000 0.5000000000 0.5000000000 0.0046296296 ignored
-Warning: card   0.0000000000 0.5000000000 0.6666666667 0.0046296296 ignored
-Warning: card   0.0000000000 0.5000000000 0.8333333333 0.0046296296 ignored
-Warning: card   0.0000000000 0.6666666667 0.0000000000 0.0046296296 ignored
-Warning: card   0.0000000000 0.6666666667 0.1666666667 0.0046296296 ignored
-Warning: card   0.0000000000 0.6666666667 0.3333333333 0.0046296296 ignored
-Warning: card   0.0000000000 0.6666666667 0.5000000000 0.0046296296 ignored
-Warning: card   0.0000000000 0.6666666667 0.6666666667 0.0046296296 ignored
-Warning: card   0.0000000000 0.6666666667 0.8333333333 0.0046296296 ignored
-Warning: card   0.0000000000 0.8333333333 0.0000000000 0.0046296296 ignored
-Warning: card   0.0000000000 0.8333333333 0.1666666667 0.0046296296 ignored
-Warning: card   0.0000000000 0.8333333333 0.3333333333 0.0046296296 ignored
-Warning: card   0.0000000000 0.8333333333 0.5000000000 0.0046296296 ignored
-Warning: card   0.0000000000 0.8333333333 0.6666666667 0.0046296296 ignored
-Warning: card   0.0000000000 0.8333333333 0.8333333333 0.0046296296 ignored
-Warning: card   0.1666666667 0.0000000000 0.0000000000 0.0046296296 ignored
-Warning: card   0.1666666667 0.0000000000 0.1666666667 0.0046296296 ignored
-Warning: card   0.1666666667 0.0000000000 0.3333333333 0.0046296296 ignored
-Warning: card   0.1666666667 0.0000000000 0.5000000000 0.0046296296 ignored
-Warning: card   0.1666666667 0.0000000000 0.6666666667 0.0046296296 ignored
-Warning: card   0.1666666667 0.0000000000 0.8333333333 0.0046296296 ignored
-Warning: card   0.1666666667 0.1666666667 0.0000000000 0.0046296296 ignored
-Warning: card   0.1666666667 0.1666666667 0.1666666667 0.0046296296 ignored
-Warning: card   0.1666666667 0.1666666667 0.3333333333 0.0046296296 ignored
-Warning: card   0.1666666667 0.1666666667 0.5000000000 0.0046296296 ignored
-Warning: card   0.1666666667 0.1666666667 0.6666666667 0.0046296296 ignored
-Warning: card   0.1666666667 0.1666666667 0.8333333333 0.0046296296 ignored
-Warning: card   0.1666666667 0.3333333333 0.0000000000 0.0046296296 ignored
-Warning: card   0.1666666667 0.3333333333 0.1666666667 0.0046296296 ignored
-Warning: card   0.1666666667 0.3333333333 0.3333333333 0.0046296296 ignored
-Warning: card   0.1666666667 0.3333333333 0.5000000000 0.0046296296 ignored
-Warning: card   0.1666666667 0.3333333333 0.6666666667 0.0046296296 ignored
-Warning: card   0.1666666667 0.3333333333 0.8333333333 0.0046296296 ignored
-Warning: card   0.1666666667 0.5000000000 0.0000000000 0.0046296296 ignored
-Warning: card   0.1666666667 0.5000000000 0.1666666667 0.0046296296 ignored
-Warning: card   0.1666666667 0.5000000000 0.3333333333 0.0046296296 ignored
-Warning: card   0.1666666667 0.5000000000 0.5000000000 0.0046296296 ignored
-Warning: card   0.1666666667 0.5000000000 0.6666666667 0.0046296296 ignored
-Warning: card   0.1666666667 0.5000000000 0.8333333333 0.0046296296 ignored
-Warning: card   0.1666666667 0.6666666667 0.0000000000 0.0046296296 ignored
-Warning: card   0.1666666667 0.6666666667 0.1666666667 0.0046296296 ignored
-Warning: card   0.1666666667 0.6666666667 0.3333333333 0.0046296296 ignored
-Warning: card   0.1666666667 0.6666666667 0.5000000000 0.0046296296 ignored
-Warning: card   0.1666666667 0.6666666667 0.6666666667 0.0046296296 ignored
-Warning: card   0.1666666667 0.6666666667 0.8333333333 0.0046296296 ignored
-Warning: card   0.1666666667 0.8333333333 0.0000000000 0.0046296296 ignored
-Warning: card   0.1666666667 0.8333333333 0.1666666667 0.0046296296 ignored
-Warning: card   0.1666666667 0.8333333333 0.3333333333 0.0046296296 ignored
-Warning: card   0.1666666667 0.8333333333 0.5000000000 0.0046296296 ignored
-Warning: card   0.1666666667 0.8333333333 0.6666666667 0.0046296296 ignored
-Warning: card   0.1666666667 0.8333333333 0.8333333333 0.0046296296 ignored
-Warning: card   0.3333333333 0.0000000000 0.0000000000 0.0046296296 ignored
-Warning: card   0.3333333333 0.0000000000 0.1666666667 0.0046296296 ignored
-Warning: card   0.3333333333 0.0000000000 0.3333333333 0.0046296296 ignored
-Warning: card   0.3333333333 0.0000000000 0.5000000000 0.0046296296 ignored
-Warning: card   0.3333333333 0.0000000000 0.6666666667 0.0046296296 ignored
-Warning: card   0.3333333333 0.0000000000 0.8333333333 0.0046296296 ignored
-Warning: card   0.3333333333 0.1666666667 0.0000000000 0.0046296296 ignored
-Warning: card   0.3333333333 0.1666666667 0.1666666667 0.0046296296 ignored
-Warning: card   0.3333333333 0.1666666667 0.3333333333 0.0046296296 ignored
-Warning: card   0.3333333333 0.1666666667 0.5000000000 0.0046296296 ignored
-Warning: card   0.3333333333 0.1666666667 0.6666666667 0.0046296296 ignored
-Warning: card   0.3333333333 0.1666666667 0.8333333333 0.0046296296 ignored
-Warning: card   0.3333333333 0.3333333333 0.0000000000 0.0046296296 ignored
-Warning: card   0.3333333333 0.3333333333 0.1666666667 0.0046296296 ignored
-Warning: card   0.3333333333 0.3333333333 0.3333333333 0.0046296296 ignored
-Warning: card   0.3333333333 0.3333333333 0.5000000000 0.0046296296 ignored
-Warning: card   0.3333333333 0.3333333333 0.6666666667 0.0046296296 ignored
-Warning: card   0.3333333333 0.3333333333 0.8333333333 0.0046296296 ignored
-Warning: card   0.3333333333 0.5000000000 0.0000000000 0.0046296296 ignored
-Warning: card   0.3333333333 0.5000000000 0.1666666667 0.0046296296 ignored
-Warning: card   0.3333333333 0.5000000000 0.3333333333 0.0046296296 ignored
-Warning: card   0.3333333333 0.5000000000 0.5000000000 0.0046296296 ignored
-Warning: card   0.3333333333 0.5000000000 0.6666666667 0.0046296296 ignored
-Warning: card   0.3333333333 0.5000000000 0.8333333333 0.0046296296 ignored
-Warning: card   0.3333333333 0.6666666667 0.0000000000 0.0046296296 ignored
-Warning: card   0.3333333333 0.6666666667 0.1666666667 0.0046296296 ignored
-Warning: card   0.3333333333 0.6666666667 0.3333333333 0.0046296296 ignored
-Warning: card   0.3333333333 0.6666666667 0.5000000000 0.0046296296 ignored
-Warning: card   0.3333333333 0.6666666667 0.6666666667 0.0046296296 ignored
-Warning: card   0.3333333333 0.6666666667 0.8333333333 0.0046296296 ignored
-Warning: card   0.3333333333 0.8333333333 0.0000000000 0.0046296296 ignored
-Warning: card   0.3333333333 0.8333333333 0.1666666667 0.0046296296 ignored
-Warning: card   0.3333333333 0.8333333333 0.3333333333 0.0046296296 ignored
-Warning: card   0.3333333333 0.8333333333 0.5000000000 0.0046296296 ignored
-Warning: card   0.3333333333 0.8333333333 0.6666666667 0.0046296296 ignored
-Warning: card   0.3333333333 0.8333333333 0.8333333333 0.0046296296 ignored
-Warning: card   0.5000000000 0.0000000000 0.0000000000 0.0046296296 ignored
-Warning: card   0.5000000000 0.0000000000 0.1666666667 0.0046296296 ignored
-Warning: card   0.5000000000 0.0000000000 0.3333333333 0.0046296296 ignored
-Warning: card   0.5000000000 0.0000000000 0.5000000000 0.0046296296 ignored
-Warning: card   0.5000000000 0.0000000000 0.6666666667 0.0046296296 ignored
-Warning: card   0.5000000000 0.0000000000 0.8333333333 0.0046296296 ignored
-Warning: card   0.5000000000 0.1666666667 0.0000000000 0.0046296296 ignored
-Warning: card   0.5000000000 0.1666666667 0.1666666667 0.0046296296 ignored
-Warning: card   0.5000000000 0.1666666667 0.3333333333 0.0046296296 ignored
-Warning: card   0.5000000000 0.1666666667 0.5000000000 0.0046296296 ignored
-Warning: card   0.5000000000 0.1666666667 0.6666666667 0.0046296296 ignored
-Warning: card   0.5000000000 0.1666666667 0.8333333333 0.0046296296 ignored
-Warning: card   0.5000000000 0.3333333333 0.0000000000 0.0046296296 ignored
-Warning: card   0.5000000000 0.3333333333 0.1666666667 0.0046296296 ignored
-Warning: card   0.5000000000 0.3333333333 0.3333333333 0.0046296296 ignored
-Warning: card   0.5000000000 0.3333333333 0.5000000000 0.0046296296 ignored
-Warning: card   0.5000000000 0.3333333333 0.6666666667 0.0046296296 ignored
-Warning: card   0.5000000000 0.3333333333 0.8333333333 0.0046296296 ignored
-Warning: card   0.5000000000 0.5000000000 0.0000000000 0.0046296296 ignored
-Warning: card   0.5000000000 0.5000000000 0.1666666667 0.0046296296 ignored
-Warning: card   0.5000000000 0.5000000000 0.3333333333 0.0046296296 ignored
-Warning: card   0.5000000000 0.5000000000 0.5000000000 0.0046296296 ignored
-Warning: card   0.5000000000 0.5000000000 0.6666666667 0.0046296296 ignored
-Warning: card   0.5000000000 0.5000000000 0.8333333333 0.0046296296 ignored
-Warning: card   0.5000000000 0.6666666667 0.0000000000 0.0046296296 ignored
-Warning: card   0.5000000000 0.6666666667 0.1666666667 0.0046296296 ignored
-Warning: card   0.5000000000 0.6666666667 0.3333333333 0.0046296296 ignored
-Warning: card   0.5000000000 0.6666666667 0.5000000000 0.0046296296 ignored
-Warning: card   0.5000000000 0.6666666667 0.6666666667 0.0046296296 ignored
-Warning: card   0.5000000000 0.6666666667 0.8333333333 0.0046296296 ignored
-Warning: card   0.5000000000 0.8333333333 0.0000000000 0.0046296296 ignored
-Warning: card   0.5000000000 0.8333333333 0.1666666667 0.0046296296 ignored
-Warning: card   0.5000000000 0.8333333333 0.3333333333 0.0046296296 ignored
-Warning: card   0.5000000000 0.8333333333 0.5000000000 0.0046296296 ignored
-Warning: card   0.5000000000 0.8333333333 0.6666666667 0.0046296296 ignored
-Warning: card   0.5000000000 0.8333333333 0.8333333333 0.0046296296 ignored
-Warning: card   0.6666666667 0.0000000000 0.0000000000 0.0046296296 ignored
-Warning: card   0.6666666667 0.0000000000 0.1666666667 0.0046296296 ignored
-Warning: card   0.6666666667 0.0000000000 0.3333333333 0.0046296296 ignored
-Warning: card   0.6666666667 0.0000000000 0.5000000000 0.0046296296 ignored
-Warning: card   0.6666666667 0.0000000000 0.6666666667 0.0046296296 ignored
-Warning: card   0.6666666667 0.0000000000 0.8333333333 0.0046296296 ignored
-Warning: card   0.6666666667 0.1666666667 0.0000000000 0.0046296296 ignored
-Warning: card   0.6666666667 0.1666666667 0.1666666667 0.0046296296 ignored
-Warning: card   0.6666666667 0.1666666667 0.3333333333 0.0046296296 ignored
-Warning: card   0.6666666667 0.1666666667 0.5000000000 0.0046296296 ignored
-Warning: card   0.6666666667 0.1666666667 0.6666666667 0.0046296296 ignored
-Warning: card   0.6666666667 0.1666666667 0.8333333333 0.0046296296 ignored
-Warning: card   0.6666666667 0.3333333333 0.0000000000 0.0046296296 ignored
-Warning: card   0.6666666667 0.3333333333 0.1666666667 0.0046296296 ignored
-Warning: card   0.6666666667 0.3333333333 0.3333333333 0.0046296296 ignored
-Warning: card   0.6666666667 0.3333333333 0.5000000000 0.0046296296 ignored
-Warning: card   0.6666666667 0.3333333333 0.6666666667 0.0046296296 ignored
-Warning: card   0.6666666667 0.3333333333 0.8333333333 0.0046296296 ignored
-Warning: card   0.6666666667 0.5000000000 0.0000000000 0.0046296296 ignored
-Warning: card   0.6666666667 0.5000000000 0.1666666667 0.0046296296 ignored
-Warning: card   0.6666666667 0.5000000000 0.3333333333 0.0046296296 ignored
-Warning: card   0.6666666667 0.5000000000 0.5000000000 0.0046296296 ignored
-Warning: card   0.6666666667 0.5000000000 0.6666666667 0.0046296296 ignored
-Warning: card   0.6666666667 0.5000000000 0.8333333333 0.0046296296 ignored
-Warning: card   0.6666666667 0.6666666667 0.0000000000 0.0046296296 ignored
-Warning: card   0.6666666667 0.6666666667 0.1666666667 0.0046296296 ignored
-Warning: card   0.6666666667 0.6666666667 0.3333333333 0.0046296296 ignored
-Warning: card   0.6666666667 0.6666666667 0.5000000000 0.0046296296 ignored
-Warning: card   0.6666666667 0.6666666667 0.6666666667 0.0046296296 ignored
-Warning: card   0.6666666667 0.6666666667 0.8333333333 0.0046296296 ignored
-Warning: card   0.6666666667 0.8333333333 0.0000000000 0.0046296296 ignored
-Warning: card   0.6666666667 0.8333333333 0.1666666667 0.0046296296 ignored
-Warning: card   0.6666666667 0.8333333333 0.3333333333 0.0046296296 ignored
-Warning: card   0.6666666667 0.8333333333 0.5000000000 0.0046296296 ignored
-Warning: card   0.6666666667 0.8333333333 0.6666666667 0.0046296296 ignored
-Warning: card   0.6666666667 0.8333333333 0.8333333333 0.0046296296 ignored
-Warning: card   0.8333333333 0.0000000000 0.0000000000 0.0046296296 ignored
-Warning: card   0.8333333333 0.0000000000 0.1666666667 0.0046296296 ignored
-Warning: card   0.8333333333 0.0000000000 0.3333333333 0.0046296296 ignored
-Warning: card   0.8333333333 0.0000000000 0.5000000000 0.0046296296 ignored
-Warning: card   0.8333333333 0.0000000000 0.6666666667 0.0046296296 ignored
-Warning: card   0.8333333333 0.0000000000 0.8333333333 0.0046296296 ignored
-Warning: card   0.8333333333 0.1666666667 0.0000000000 0.0046296296 ignored
-Warning: card   0.8333333333 0.1666666667 0.1666666667 0.0046296296 ignored
-Warning: card   0.8333333333 0.1666666667 0.3333333333 0.0046296296 ignored
-Warning: card   0.8333333333 0.1666666667 0.5000000000 0.0046296296 ignored
-Warning: card   0.8333333333 0.1666666667 0.6666666667 0.0046296296 ignored
-Warning: card   0.8333333333 0.1666666667 0.8333333333 0.0046296296 ignored
-Warning: card   0.8333333333 0.3333333333 0.0000000000 0.0046296296 ignored
-Warning: card   0.8333333333 0.3333333333 0.1666666667 0.0046296296 ignored
-Warning: card   0.8333333333 0.3333333333 0.3333333333 0.0046296296 ignored
-Warning: card   0.8333333333 0.3333333333 0.5000000000 0.0046296296 ignored
-Warning: card   0.8333333333 0.3333333333 0.6666666667 0.0046296296 ignored
-Warning: card   0.8333333333 0.3333333333 0.8333333333 0.0046296296 ignored
-Warning: card   0.8333333333 0.5000000000 0.0000000000 0.0046296296 ignored
-Warning: card   0.8333333333 0.5000000000 0.1666666667 0.0046296296 ignored
-Warning: card   0.8333333333 0.5000000000 0.3333333333 0.0046296296 ignored
-Warning: card   0.8333333333 0.5000000000 0.5000000000 0.0046296296 ignored
-
- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-     Error in routine pw_readschemafile (1):
-     xml data file not found
- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-     stopping ...
-
- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-     Error in routine pw_readschemafile (1):
-     xml data file not found
- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-     stopping ...
-
- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-     Error in routine pw_readschemafile (1):
-     xml data file not found
- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-     stopping ...
-Warning: card   0.8333333333 0.5000000000 0.6666666667 0.0046296296 ignored
-Warning: card   0.8333333333 0.5000000000 0.8333333333 0.0046296296 ignored
-Warning: card   0.8333333333 0.6666666667 0.0000000000 0.0046296296 ignored
-Warning: card   0.8333333333 0.6666666667 0.1666666667 0.0046296296 ignored
-Warning: card   0.8333333333 0.6666666667 0.3333333333 0.0046296296 ignored
-Warning: card   0.8333333333 0.6666666667 0.5000000000 0.0046296296 ignored
-Warning: card   0.8333333333 0.6666666667 0.6666666667 0.0046296296 ignored
-Warning: card   0.8333333333 0.6666666667 0.8333333333 0.0046296296 ignored
-Warning: card   0.8333333333 0.8333333333 0.0000000000 0.0046296296 ignored
-Warning: card   0.8333333333 0.8333333333 0.1666666667 0.0046296296 ignored
-Warning: card   0.8333333333 0.8333333333 0.3333333333 0.0046296296 ignored
-Warning: card   0.8333333333 0.8333333333 0.5000000000 0.0046296296 ignored
-Warning: card   0.8333333333 0.8333333333 0.6666666667 0.0046296296 ignored
-Warning: card   0.8333333333 0.8333333333 0.8333333333 0.0046296296 ignored
 
      Current dimensions of program PWSCF are:
      Max number of different atomic species (ntypx) = 10
@@ -262,11 +26,164 @@ Warning: card   0.8333333333 0.8333333333 0.8333333333 0.0046296296 ignored
      Max angular momentum in pseudopotentials (lmaxx) =  3
 
      Atomic positions and unit cell read from directory:
-     ./epw.save/
+     ./SnO2.save/
+ 
 
- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-     Error in routine pw_readschemafile (1):
-     xml data file not found
- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Subspace diagonalization in iterative solution of the eigenvalue problem:
+     a serial algorithm will be used
 
-     stopping ...
+ 
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min         529     529    168                12368    12368    2242
+     Max         531     531    169                12369    12369    2245
+     Sum        2121    2121    673                49475    49475    8971
+ 
+
+
+     bravais-lattice index     =            6
+     lattice parameter (alat)  =       9.1336  a.u.
+     unit-cell volume          =     511.8655 (a.u.)^3
+     number of atoms/cell      =            6
+     number of atomic types    =            2
+     number of electrons       =        52.01
+     number of Kohn-Sham states=           28
+     kinetic-energy cutoff     =      80.0000  Ry
+     charge density cutoff     =     320.0000  Ry
+     Exchange-correlation      = PBE ( 1  4  3  4 0 0)
+
+     celldm(1)=   9.133580  celldm(2)=   1.000000  celldm(3)=   0.671789
+     celldm(4)=   0.000000  celldm(5)=   0.000000  celldm(6)=   0.000000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (   1.000000   0.000000   0.000000 )  
+               a(2) = (   0.000000   1.000000   0.000000 )  
+               a(3) = (   0.000000   0.000000   0.671789 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = (  1.000000  0.000000  0.000000 )  
+               b(2) = (  0.000000  1.000000  0.000000 )  
+               b(3) = (  0.000000  0.000000  1.488563 )  
+
+
+     PseudoPot. # 1 for Sn read from file:
+     ../../Pseudo_potentials/Sn_PBE.upf
+     MD5 check sum: 78e6386ae56e929f0568ae8bf606a80c
+     Pseudo is Norm-conserving + core correction, Zval = 14.0
+     Generated using ONCVPSP code by D. R. Hamann
+     Using radial grid of 1628 points,  6 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+
+     PseudoPot. # 2 for O  read from file:
+     ../../Pseudo_potentials/O_PBE.upf
+     MD5 check sum: 3e3f909f7470e8921608ab6b1f57bbae
+     Pseudo is Norm-conserving + core correction, Zval =  6.0
+     Generated using ONCVPSP code by D. R. Hamann
+     Using radial grid of  936 points,  5 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+
+     atomic species   valence    mass     pseudopotential
+        Sn            14.00   118.71000     Sn( 1.00)
+        O              6.00    15.99900     O ( 1.00)
+
+      4 Sym. Ops. (no inversion) found
+
+
+
+   Cartesian axes
+
+     site n.     atom                  positions (alat units)
+         1           Sn  tau(   1) = (  -0.0003306  -0.0003306   0.0000000  )
+         2           Sn  tau(   2) = (   0.4996695   0.4996695   0.3358943  )
+         3           O   tau(   3) = (   0.8063619   0.1929648   0.3358943  )
+         4           O   tau(   4) = (   0.1929648   0.8063619   0.3358943  )
+         5           O   tau(   5) = (   0.3063658   0.3063658   0.0000000  )
+         6           O   tau(   6) = (   0.6929687   0.6929687   0.0000000  )
+
+     number of k points=   312  Methfessel-Paxton smearing, width (Ry)=  0.0100
+
+     Number of k-points >= 100: set verbosity='high' to print them.
+
+     Dense  grid:    49475 G-vectors     FFT dimensions: (  54,  54,  36)
+
+     Estimated max dynamical RAM per process >      16.72 MB
+
+     Estimated total dynamical RAM >      66.87 MB
+
+     The potential is recalculated from file :
+     ./SnO2.save/charge-density.dat
+
+     Starting wfc are   34 randomized atomic wfcs
+
+     Band Structure Calculation
+     Davidson diagonalization with overlap
+
+     ethr =  1.92E-15,  avg # of iterations = 29.8
+
+     total cpu time spent up to now is      342.1 secs
+
+     End of band structure calculation
+
+     Number of k-points >= 100: set verbosity='high' to print the bands.
+
+     the Fermi energy is    10.1675 ev
+
+     Writing output data file SnO2.save
+ 
+     init_run     :      0.26s CPU      0.32s WALL (       1 calls)
+     electrons    :    318.81s CPU    341.30s WALL (       1 calls)
+
+     Called by init_run:
+     wfcinit      :      0.00s CPU      0.03s WALL (       1 calls)
+     potinit      :      0.02s CPU      0.05s WALL (       1 calls)
+     hinit0       :      0.15s CPU      0.15s WALL (       1 calls)
+
+     Called by electrons:
+     c_bands      :    318.80s CPU    341.29s WALL (       1 calls)
+     v_of_rho     :      0.02s CPU      0.02s WALL (       1 calls)
+
+     Called by c_bands:
+     init_us_2    :      0.28s CPU      0.30s WALL (     312 calls)
+     cegterg      :    283.53s CPU    288.03s WALL (     637 calls)
+
+     Called by sum_band:
+
+     Called by *egterg:
+     h_psi        :    229.76s CPU    236.44s WALL (   10233 calls)
+     g_psi        :      2.90s CPU      2.95s WALL (    9284 calls)
+     cdiaghg      :     23.04s CPU     23.37s WALL (    9596 calls)
+
+     Called by h_psi:
+     h_psi:pot    :    228.74s CPU    235.39s WALL (   10233 calls)
+     h_psi:calbec :     13.31s CPU     13.48s WALL (   10233 calls)
+     vloc_psi     :    203.10s CPU    209.44s WALL (   10233 calls)
+     add_vuspsi   :     12.30s CPU     12.43s WALL (   10233 calls)
+
+     General routines
+     calbec       :     13.29s CPU     13.46s WALL (   10233 calls)
+     fft          :      0.01s CPU      0.01s WALL (      12 calls)
+     fftw         :    191.15s CPU    197.08s WALL (  365474 calls)
+     davcio       :      0.10s CPU     23.03s WALL (     624 calls)
+ 
+     Parallel routines
+     fft_scatt_xy :     15.61s CPU     16.04s WALL (  365486 calls)
+     fft_scatt_yz :     40.94s CPU     44.43s WALL (  365486 calls)
+ 
+     PWSCF        :  5m33.43s CPU     7m19.22s WALL
+
+ 
+   This run was terminated on:   2:51:42  25May2018            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

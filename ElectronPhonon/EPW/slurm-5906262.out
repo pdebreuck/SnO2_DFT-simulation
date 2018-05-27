@@ -1,0 +1,237 @@
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD 
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+[mb-wes252.cism.ucl.ac.be][[56451,1],10][../../../../../ompi/mca/btl/tcp/btl_tcp_frag.c:215:mca_btl_tcp_frag_recv] [mb-wes252.cism.ucl.ac.be][[56451,1],11][../../../../../ompi/mca/btl/tcp/btl_tcp_frag.c:215:mca_btl_tcp_frag_recv] mca_btl_tcp_frag_recv: readv failed: Connection reset by peer (104)
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libc.so.6          00000037C60E91A3  Unknown               Unknown  Unknown
+libmpi.so.1        00007F8491D0AC81  Unknown               Unknown  Unknown
+libmpi.so.1        00007F8491D0BD6C  Unknown               Unknown  Unknown
+libmpi.so.1        00007F8491D3EEFC  Unknown               Unknown  Unknown
+libmpi.so.1        00007F8491B660E2  Unknown               Unknown  Unknown
+libmpi.so.1        00007F8491BC565E  Unknown               Unknown  Unknown
+libmpi.so.1        00007F8491BCE0C1  Unknown               Unknown  Unknown
+libmpi.so.1        00007F8491B74C1D  Unknown               Unknown  Unknown
+libmpi_f77.so.1    00007F849212C0A3  Unknown               Unknown  Unknown
+epw.x              0000000000DBEED8  bcast_logical_             37  mp_base.f90
+epw.x              0000000000DA0100  mp_mp_mp_bcast_l_         536  mp.f90
+epw.x              00000000005B8817  bcast_epw_input_           64  bcast_epw_input.f90
+epw.x              00000000004F3837  epw_readin_               667  epw_readin.f90
+epw.x              000000000047ACFD  MAIN__                     88  epw.f90
+epw.x              000000000047A3DC  Unknown               Unknown  Unknown
+libc.so.6          00000037C601ED1D  Unknown               Unknown  Unknown
+epw.x              000000000047A2D9  Unknown               Unknown  Unknown
+mca_btl_tcp_frag_recv: readv failed: Connection reset by peer (104)
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libc.so.6          0000003F250E91A3  Unknown               Unknown  Unknown
+libmpi.so.1        00007FCB405CDC81  Unknown               Unknown  Unknown
+libmpi.so.1        00007FCB405CED6C  Unknown               Unknown  Unknown
+libmpi.so.1        00007FCB40601EFC  Unknown               Unknown  Unknown
+libmpi.so.1        00007FCB404290E2  Unknown               Unknown  Unknown
+libmpi.so.1        00007FCB4048865E  Unknown               Unknown  Unknown
+libmpi.so.1        00007FCB404910C1  Unknown               Unknown  Unknown
+libmpi.so.1        00007FCB40437C1D  Unknown               Unknown  Unknown
+libmpi_f77.so.1    00007FCB409EF0A3  Unknown               Unknown  Unknown
+epw.x              0000000000DBEED8  bcast_logical_             37  mp_base.f90
+epw.x              0000000000DA0100  mp_mp_mp_bcast_l_         536  mp.f90
+epw.x              00000000005B8817  bcast_epw_input_           64  bcast_epw_input.f90
+epw.x              00000000004F3837  epw_readin_               667  epw_readin.f90
+epw.x              000000000047ACFD  MAIN__                     88  epw.f90
+epw.x              000000000047A3DC  Unknown               Unknown  Unknown
+libc.so.6          0000003F2501ED1D  Unknown               Unknown  Unknown
+epw.x              000000000047A2D9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libc.so.6          0000003F250E91A3  Unknown               Unknown  Unknown
+libmpi.so.1        00007F1964A76C81  Unknown               Unknown  Unknown
+libmpi.so.1        00007F1964A77D6C  Unknown               Unknown  Unknown
+libmpi.so.1        00007F1964AAAEFC  Unknown               Unknown  Unknown
+libmpi.so.1        00007F19648D20E2  Unknown               Unknown  Unknown
+libmpi.so.1        00007F196493165E  Unknown               Unknown  Unknown
+libmpi.so.1        00007F196493A0C1  Unknown               Unknown  Unknown
+libmpi.so.1        00007F19648E0C1D  Unknown               Unknown  Unknown
+libmpi_f77.so.1    00007F1964E980A3  Unknown               Unknown  Unknown
+epw.x              0000000000DBEED8  bcast_logical_             37  mp_base.f90
+epw.x              0000000000DA0100  mp_mp_mp_bcast_l_         536  mp.f90
+epw.x              00000000005B8817  bcast_epw_input_           64  bcast_epw_input.f90
+epw.x              00000000004F3837  epw_readin_               667  epw_readin.f90
+epw.x              000000000047ACFD  MAIN__                     88  epw.f90
+epw.x              000000000047A3DC  Unknown               Unknown  Unknown
+libc.so.6          0000003F2501ED1D  Unknown               Unknown  Unknown
+epw.x              000000000047A2D9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libc.so.6          000000332ACE91A3  Unknown               Unknown  Unknown
+libmpi.so.1        00007FB5A95CFC81  Unknown               Unknown  Unknown
+libmpi.so.1        00007FB5A95D0D6C  Unknown               Unknown  Unknown
+libmpi.so.1        00007FB5A9603EFC  Unknown               Unknown  Unknown
+libmpi.so.1        00007FB5A942B0E2  Unknown               Unknown  Unknown
+libmpi.so.1        00007FB5A948A65E  Unknown               Unknown  Unknown
+libmpi.so.1        00007FB5A94930C1  Unknown               Unknown  Unknown
+libmpi.so.1        00007FB5A9439C1D  Unknown               Unknown  Unknown
+libmpi_f77.so.1    00007FB5A99F10A3  Unknown               Unknown  Unknown
+epw.x              0000000000DBEED8  bcast_logical_             37  mp_base.f90
+epw.x              0000000000DA0100  mp_mp_mp_bcast_l_         536  mp.f90
+epw.x              00000000005B8817  bcast_epw_input_           64  bcast_epw_input.f90
+epw.x              00000000004F3837  epw_readin_               667  epw_readin.f90
+epw.x              000000000047ACFD  MAIN__                     88  epw.f90
+epw.x              000000000047A3DC  Unknown               Unknown  Unknown
+libc.so.6          000000332AC1ED1D  Unknown               Unknown  Unknown
+epw.x              000000000047A2D9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libc.so.6          0000003C32EE91A3  Unknown               Unknown  Unknown
+libmpi.so.1        00007F5924828C81  Unknown               Unknown  Unknown
+libmpi.so.1        00007F5924829D6C  Unknown               Unknown  Unknown
+libmpi.so.1        00007F592485CEFC  Unknown               Unknown  Unknown
+libmpi.so.1        00007F59246840E2  Unknown               Unknown  Unknown
+libmpi.so.1        00007F59246E365E  Unknown               Unknown  Unknown
+libmpi.so.1        00007F59246EC0C1  Unknown               Unknown  Unknown
+libmpi.so.1        00007F5924692C1D  Unknown               Unknown  Unknown
+libmpi_f77.so.1    00007F5924C4A0A3  Unknown               Unknown  Unknown
+epw.x              0000000000DBEED8  bcast_logical_             37  mp_base.f90
+epw.x              0000000000DA0100  mp_mp_mp_bcast_l_         536  mp.f90
+epw.x              00000000005B8817  bcast_epw_input_           64  bcast_epw_input.f90
+epw.x              00000000004F3837  epw_readin_               667  epw_readin.f90
+epw.x              000000000047ACFD  MAIN__                     88  epw.f90
+epw.x              000000000047A3DC  Unknown               Unknown  Unknown
+libc.so.6          0000003C32E1ED1D  Unknown               Unknown  Unknown
+epw.x              000000000047A2D9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libc.so.6          0000003C32EE91A3  Unknown               Unknown  Unknown
+libmpi.so.1        00007F913CA14C81  Unknown               Unknown  Unknown
+libmpi.so.1        00007F913CA15D6C  Unknown               Unknown  Unknown
+libmpi.so.1        00007F913CA48EFC  Unknown               Unknown  Unknown
+libmpi.so.1        00007F913C8700E2  Unknown               Unknown  Unknown
+libmpi.so.1        00007F913C8CF65E  Unknown               Unknown  Unknown
+libmpi.so.1        00007F913C8D80C1  Unknown               Unknown  Unknown
+libmpi.so.1        00007F913C87EC1D  Unknown               Unknown  Unknown
+libmpi_f77.so.1    00007F913CE360A3  Unknown               Unknown  Unknown
+epw.x              0000000000DBEED8  bcast_logical_             37  mp_base.f90
+epw.x              0000000000DA0100  mp_mp_mp_bcast_l_         536  mp.f90
+epw.x              00000000005B8817  bcast_epw_input_           64  bcast_epw_input.f90
+epw.x              00000000004F3837  epw_readin_               667  epw_readin.f90
+epw.x              000000000047ACFD  MAIN__                     88  epw.f90
+epw.x              000000000047A3DC  Unknown               Unknown  Unknown
+libc.so.6          0000003C32E1ED1D  Unknown               Unknown  Unknown
+epw.x              000000000047A2D9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libc.so.6          0000003AC8AE91A3  Unknown               Unknown  Unknown
+libmpi.so.1        00007F1B53EE7C81  Unknown               Unknown  Unknown
+libmpi.so.1        00007F1B53EE8D6C  Unknown               Unknown  Unknown
+libmpi.so.1        00007F1B53F1BEFC  Unknown               Unknown  Unknown
+libmpi.so.1        00007F1B53D430E2  Unknown               Unknown  Unknown
+libmpi.so.1        00007F1B53DA265E  Unknown               Unknown  Unknown
+libmpi.so.1        00007F1B53DAB0C1  Unknown               Unknown  Unknown
+libmpi.so.1        00007F1B53D51C1D  Unknown               Unknown  Unknown
+libmpi_f77.so.1    00007F1B543090A3  Unknown               Unknown  Unknown
+epw.x              0000000000DBEED8  bcast_logical_             37  mp_base.f90
+epw.x              0000000000DA0100  mp_mp_mp_bcast_l_         536  mp.f90
+epw.x              00000000005B8817  bcast_epw_input_           64  bcast_epw_input.f90
+epw.x              00000000004F3837  epw_readin_               667  epw_readin.f90
+epw.x              000000000047ACFD  MAIN__                     88  epw.f90
+epw.x              000000000047A3DC  Unknown               Unknown  Unknown
+libc.so.6          0000003AC8A1ED1D  Unknown               Unknown  Unknown
+epw.x              000000000047A2D9  Unknown               Unknown  Unknown
+--------------------------------------------------------------------------
+mpirun has exited due to process rank 0 with PID 30155 on
+node mb-sab003.cism.ucl.ac.be exiting improperly. There are two reasons this could occur:
+
+1. this process did not call "init" before exiting, but others in
+the job did. This can cause a job to hang indefinitely while it waits
+for all processes to call "init". By rule, if one process calls "init",
+then ALL processes must call "init" prior to termination.
+
+2. this process called "init", but exited without calling "finalize".
+By rule, all processes that call "init" MUST call "finalize" prior to
+exiting or it will be considered an "abnormal termination"
+
+This may have caused other processes in the application to be
+terminated by signals sent by mpirun (as reported here).
+--------------------------------------------------------------------------
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libc.so.6          0000003898AE91A3  Unknown               Unknown  Unknown
+libmpi.so.1        00007FF41E2B7C81  Unknown               Unknown  Unknown
+libmpi.so.1        00007FF41E2B8D6C  Unknown               Unknown  Unknown
+libmpi.so.1        00007FF41E2EBEFC  Unknown               Unknown  Unknown
+libmpi.so.1        00007FF41E1130E2  Unknown               Unknown  Unknown
+libmpi.so.1        00007FF41E17265E  Unknown               Unknown  Unknown
+libmpi.so.1        00007FF41E17B0C1  Unknown               Unknown  Unknown
+libmpi.so.1        00007FF41E121C1D  Unknown               Unknown  Unknown
+libmpi_f77.so.1    00007FF41E6D90A3  Unknown               Unknown  Unknown
+epw.x              0000000000DBEED8  bcast_logical_             37  mp_base.f90
+epw.x              0000000000DA0100  mp_mp_mp_bcast_l_         536  mp.f90
+epw.x              00000000005B8817  bcast_epw_input_           64  bcast_epw_input.f90
+epw.x              00000000004F3837  epw_readin_               667  epw_readin.f90
+epw.x              000000000047ACFD  MAIN__                     88  epw.f90
+epw.x              000000000047A3DC  Unknown               Unknown  Unknown
+libc.so.6          0000003898A1ED1D  Unknown               Unknown  Unknown
+epw.x              000000000047A2D9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libc.so.6          0000003898AE91A3  Unknown               Unknown  Unknown
+libmpi.so.1        00007F618D159C81  Unknown               Unknown  Unknown
+libmpi.so.1        00007F618D15AD6C  Unknown               Unknown  Unknown
+libmpi.so.1        00007F618D18DEFC  Unknown               Unknown  Unknown
+libmpi.so.1        00007F618CFB50E2  Unknown               Unknown  Unknown
+libmpi.so.1        00007F618D01465E  Unknown               Unknown  Unknown
+libmpi.so.1        00007F618D01D0C1  Unknown               Unknown  Unknown
+libmpi.so.1        00007F618CFC3C1D  Unknown               Unknown  Unknown
+libmpi_f77.so.1    00007F618D57B0A3  Unknown               Unknown  Unknown
+epw.x              0000000000DBEED8  bcast_logical_             37  mp_base.f90
+epw.x              0000000000DA0100  mp_mp_mp_bcast_l_         536  mp.f90
+epw.x              00000000005B8817  bcast_epw_input_           64  bcast_epw_input.f90
+epw.x              00000000004F3837  epw_readin_               667  epw_readin.f90
+epw.x              000000000047ACFD  MAIN__                     88  epw.f90
+epw.x              000000000047A3DC  Unknown               Unknown  Unknown
+libc.so.6          0000003898A1ED1D  Unknown               Unknown  Unknown
+epw.x              000000000047A2D9  Unknown               Unknown  Unknown
+[mb-sab040.cism.ucl.ac.be][[56451,1],8][../../../../../ompi/mca/btl/tcp/btl_tcp_frag.c:215:mca_btl_tcp_frag_recv] mca_btl_tcp_frag_recv: readv failed: Connection reset by peer (104)
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libc.so.6          0000003898AE91A3  Unknown               Unknown  Unknown
+libmpi.so.1        00007F3346656C81  Unknown               Unknown  Unknown
+libmpi.so.1        00007F3346657D6C  Unknown               Unknown  Unknown
+libmpi.so.1        00007F334668AEFC  Unknown               Unknown  Unknown
+libmpi.so.1        00007F33464B20E2  Unknown               Unknown  Unknown
+libmpi.so.1        00007F334651165E  Unknown               Unknown  Unknown
+libmpi.so.1        00007F334651A0C1  Unknown               Unknown  Unknown
+libmpi.so.1        00007F33464C0C1D  Unknown               Unknown  Unknown
+libmpi_f77.so.1    00007F3346A780A3  Unknown               Unknown  Unknown
+epw.x              0000000000DBEED8  bcast_logical_             37  mp_base.f90
+epw.x              0000000000DA0100  mp_mp_mp_bcast_l_         536  mp.f90
+epw.x              00000000005B8817  bcast_epw_input_           64  bcast_epw_input.f90
+epw.x              00000000004F3837  epw_readin_               667  epw_readin.f90
+epw.x              000000000047ACFD  MAIN__                     88  epw.f90
+epw.x              000000000047A3DC  Unknown               Unknown  Unknown
+libc.so.6          0000003898A1ED1D  Unknown               Unknown  Unknown
+epw.x              000000000047A2D9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libc.so.6          0000003898AE91A3  Unknown               Unknown  Unknown
+libmpi.so.1        00007F623DECCC81  Unknown               Unknown  Unknown
+libmpi.so.1        00007F623DECDD6C  Unknown               Unknown  Unknown
+libmpi.so.1        00007F623DF00EFC  Unknown               Unknown  Unknown
+libmpi.so.1        00007F623DD280E2  Unknown               Unknown  Unknown
+libmpi.so.1        00007F623DD8765E  Unknown               Unknown  Unknown
+libmpi.so.1        00007F623DD900C1  Unknown               Unknown  Unknown
+libmpi.so.1        00007F623DD36C1D  Unknown               Unknown  Unknown
+libmpi_f77.so.1    00007F623E2EE0A3  Unknown               Unknown  Unknown
+epw.x              0000000000DBEED8  bcast_logical_             37  mp_base.f90
+epw.x              0000000000DA0100  mp_mp_mp_bcast_l_         536  mp.f90
+epw.x              00000000005B8817  bcast_epw_input_           64  bcast_epw_input.f90
+epw.x              00000000004F3837  epw_readin_               667  epw_readin.f90
+epw.x              000000000047ACFD  MAIN__                     88  epw.f90
+epw.x              000000000047A3DC  Unknown               Unknown  Unknown
+libc.so.6          0000003898A1ED1D  Unknown               Unknown  Unknown
+epw.x              000000000047A2D9  Unknown               Unknown  Unknown
+--
